@@ -1,0 +1,1 @@
+package mapping;public class StopSignObstacle extends Obstacle{  public StopSignObstacle(double x,double y,double z)  {     super(x,y,z);  }}

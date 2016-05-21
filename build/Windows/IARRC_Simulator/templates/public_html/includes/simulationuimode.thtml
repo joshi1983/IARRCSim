@@ -1,0 +1,67 @@
+<!--#include uimodes.thtml -->
+
+
+<h3>Steering and Drive Controls</h3>
+<p>
+Most often you will be making your own tools to control 
+the car through through HTTP interfaces 
+ but you can also use the keyboard.
+</p>
+
+<table class="descriptiveTable">
+<tbody>
+<tr>
+<td>Up Arrow/W/w</td>
+<td>Increase forward force</td>
+</tr>
+<tr>
+<td>Down Arrow/S/s</td>
+<td>Decrease forward force</td>
+</tr>
+<tr>
+<td>Right Arrow/D/d</td>
+<td>Steer more right, if going forward.  
+If going in reverse, it is as you'd expect when parking a real car.
+</td>
+</tr>
+<tr>
+<td>Left Arrow/A/a</td>
+<td>Steer more left, if going forward.  
+If going in reverse, it is as you'd expect when parking a real car.
+</td>
+</tr>
+<tr>
+<td>
+Enter
+</td>
+<td>
+Aims the camera straight, steers straight, zooms to default amount, and stops the car immediately.
+If the car is really far from origin or off the map, hitting enter puts car back to origin.
+This feature is particularly useful if your car gets out of control in some way.
+</td>
+</tr>
+</tbody>
+</table>
+<br/><br/>
+<h3>Camera Orientation</h3>
+<p>
+You can rotate the camera by dragging the mouse on the window.
+</p>
+<br/><br/>
+<h3>Camera Zoom/Magnification</h3>
+<p>
+Use the mouse wheel to zoom in or out.
+</p>
+<br/><br/>
+<h3>Accessing the Simulation User Interface</h3>
+<p>
+When the simulator runs, this is the first area you go to.  
+In other areas, you click the close button or '1' on the keyboard to get to it.
+</p>
+<p>
+If you want your external program to make sure it is the current mode, send a request to:
+<a href="javascript:sendRequestNonBlocking('/set?item=uimode&amp;value=1')">
+http://localhost:<!--#echo docserver-port -->/set?item=uimode&amp;value=1</a>.
+Set the bringtofront parameter to 1 if you also want the window 
+brought to the foreground in the window stack.
+</p>

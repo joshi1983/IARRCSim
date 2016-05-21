@@ -1,0 +1,2816 @@
+# depslib dependency file v1.0
+1310219776 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\main.cpp
+	"stdafx.h"
+	<windows.h>
+	"io/HTTPRequest.hpp"
+	"io/HTTPResponse.hpp"
+	<iostream>
+	"app/Application.hpp"
+	"ui/Utilities.hpp"
+	"threads/Thread.hpp"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	"io/console.hpp"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"docserver/DocServer.hpp"
+	"app/Application.hpp"
+	"threads/Mutex.hpp"
+	"threads/Thread.hpp"
+
+1307126224 cation.hpp"
+
+1228534332 c:\program files\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1097560544 
+
+1228534332 c:\program files\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1228534334 h>
+
+1228534334 c:\program files\codeblocks\mingw\include\winuser.h
+
+1228534332 c:\program files\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1307028086 >
+
+1228534332 c:\program files\codeblocks\mingw\include\winerror.h
+
+1250308680 c:\program files\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1250308674 c:\program files\codeblocks\mingw\include\_mingw.h
+
+1228534312 c:\program files\codeblocks\mingw\include\basetsd.h
+
+1228534324 c:\program files\codeblocks\mingw\include\pshpack4.h
+
+1228534324 c:\program files\codeblocks\mingw\include\poppack.h
+
+1228534334 c:\program files\codeblocks\mingw\include\winver.h
+
+1228534314 c:\program files\codeblocks\mingw\include\dde.h
+
+1228534314 c:\program files\codeblocks\mingw\include\dlgs.h
+
+1228534314 c:\program files\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1228534324 c:\program files\codeblocks\mingw\include\prsht.h
+
+1228534332 c:\program files\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1228534332 c:\program files\codeblocks\mingw\include\wincon.h
+
+1228534330 c:\program files\codeblocks\mingw\include\winbase.h
+
+1228534332 c:\program files\codeblocks\mingw\include\wingdi.h
+
+1228534332 c:\program files\codeblocks\mingw\include\winnls.h
+
+1228534332 c:\program files\codeblocks\mingw\include\winnetwk.h
+
+1228534332 c:\program files\codeblocks\mingw\include\winreg.h
+
+1228534334 c:\program files\codeblocks\mingw\include\winsvc.h
+
+1228534312 c:\program files\codeblocks\mingw\include\cderr.h
+
+1228534314 c:\program files\codeblocks\mingw\include\ddeml.h
+
+1228534316 c:\program files\codeblocks\mingw\include\imm.h
+
+1228534320 c:\program files\codeblocks\mingw\include\lzexpand.h
+
+1228534322 c:\program files\codeblocks\mingw\include\mmsystem.h
+
+1228534322 c:\program files\codeblocks\mingw\include\nb30.h
+
+1228534326 c:\program files\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1228534326 c:\program files\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1228534312 c:\program files\codeblocks\mingw\include\basetyps.h
+
+1228534328 c:\program files\codeblocks\mingw\include\rpcdcep.h
+
+1228534328 c:\program files\codeblocks\mingw\include\rpcnsi.h
+
+1228534328 c:\program files\codeblocks\mingw\include\rpcnterr.h
+
+1250308676 c:\program files\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1228534328 c:\program files\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1228534324 c:\program files\codeblocks\mingw\include\pshpack2.h
+
+1228534332 c:\program files\codeblocks\mingw\include\winperf.h
+
+1228534314 c:\program files\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1228534330 c:\program files\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1228534324 c:\program files\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1228534334 c:\program files\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1228534328 c:\program files\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1228534328 c:\program files\codeblocks\mingw\include\rpcnsip.h
+
+1228534334 c:\program files\codeblocks\mingw\include\winspool.h
+
+1228534334 c:\program files\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1228534332 c:\program files\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1228534322 c:\program files\codeblocks\mingw\include\mswsock.h
+
+1228534324 c:\program files\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1228534324 c:\program files\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1250308680 c:\program files\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1228534324 c:\program files\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1228534312 c:\program files\codeblocks\mingw\include\cguid.h
+
+1228534324 c:\program files\codeblocks\mingw\include\olectlid.h
+
+1228534324 c:\program files\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1228534322 c:\program files\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1228534324 c:\program files\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1097560544 c:\program files\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1228534334 c:\program files\codeblocks\mingw\include\gl\gl.h
+
+1228534334 c:\program files\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1307326739 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\stdafx.h
+	"io/Socket.hpp"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	<GLUT/glut.h>
+	<GL/openglut.h>
+
+1307036096 ut.h>
+
+1286339218 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\socket.hpp
+	"../stdafx.h"
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<netdb.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<winsock2.h>
+	<iostream>
+
+1250308680 c:\program files\codeblocks\mingw\include\unistd.h
+	<io.h>
+	<process.h>
+	<getopt.h>
+	<sys/types.h>
+
+1250308680 .h>
+
+1250308676 c:\program files\codeblocks\mingw\include\io.h
+	<_mingw.h>
+	<sys/types.h>
+
+1250308682 c:\program files\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1250308678 c:\program files\codeblocks\mingw\include\process.h
+	<_mingw.h>
+	<sys/types.h>
+	<stdint.h>
+
+1250308680 c:\program files\codeblocks\mingw\include\stdint.h
+	<stddef.h>
+
+1250308676 c:\program files\codeblocks\mingw\include\getopt.h
+	<_mingw.h>
+
+1250308676 c:\program files\codeblocks\mingw\include\errno.h
+	<_mingw.h>
+
+1306220624 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httprequest.hpp
+	"Socket.hpp"
+	"HTTPParser.hpp"
+	"ParameterCollection.hpp"
+	<list>
+	<iostream>
+	<string>
+
+1306219064 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httpparser.hpp
+	"../stdafx.h"
+	"HTTPFieldSet.hpp"
+	"Socket.hpp"
+
+1287713784 p"
+
+1284239388 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httpfieldset.hpp
+	<list>
+	<iostream>
+	"HTTPField.hpp"
+	"Socket.hpp"
+
+1284239286 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httpfield.hpp
+	<string>
+	<iostream>
+	"Socket.hpp"
+
+1286059764 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\parametercollection.hpp
+	<list>
+	"Parameter.hpp"
+
+1285739946 .hpp"
+
+1306240016 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\parameter.hpp
+
+1284996314 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httpresponse.hpp
+	"HTTPFieldSet.hpp"
+	"Socket.hpp"
+	<string>
+
+1310170460 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\app\application.hpp
+	"../stdafx.h"
+	"../io/Socket.hpp"
+	"../threads/Job.hpp"
+	"../sensors/Sensors.hpp"
+	"../vectors/Ray3D.hpp"
+	"../ui/UserInterface.hpp"
+	"../physicalobjects/RoboticCar.hpp"
+	"../physicalobjects/Backdrop.hpp"
+	"../ui/SimulationUI.hpp"
+	"Environment.hpp"
+	<string>
+	<vector>
+	<windows.h>
+
+1310487047 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\threads\job.hpp
+
+1310518022 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\sensor.hpp
+	<string>
+	"../vectors/Vector3D.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+
+1287380332 s/Vector3D.hpp"
+
+1307796729 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\vector3d.hpp
+	<iostream>
+	<string>
+
+1310775302 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\videodevice.hpp
+	"../io/Socket.hpp"
+	"../io/ServerSocket.hpp"
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<string>
+	"../ui/UserInterface.hpp"
+	"../graphics/BitmapImage.hpp"
+	"../threads/Job.hpp"
+	"Sensor.hpp"
+	"../threads/Mutex.hpp"
+
+1287216714 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\serversocket.hpp
+	"../stdafx.h"
+	<winsock2.h>
+	"Socket.hpp"
+
+1307086804 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\userinterface.hpp
+	"../stdafx.h"
+
+1287380247 .h"
+
+1310219554 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\bitmapimage.hpp
+	"../threads/Mutex.hpp"
+
+1287379978 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\ray3d.hpp
+	"Vector3D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1306466898 cs/Rotator2D.hpp"
+
+1287380332 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\rotator2d.hpp
+	"../vectors/Vector2D.hpp"
+	"../vectors/Vector3D.hpp"
+
+1311360588 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\vector2d.hpp
+	<iostream>
+
+1310514887 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\roboticcar.hpp
+	"InteractiveObject.hpp"
+	"Rotatable.hpp"
+	"ComplexObject.hpp"
+	"RoboticHelicopter.hpp"
+	"../robotcontrollers/RobotController.hpp"
+	"../shapes/ShapeCollection.hpp"
+	"../threads/Mutex.hpp"
+
+1306593387 /ShapeCollection.hpp"
+
+1306091900 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\interactiveobject.hpp
+	"PhysicalObject.hpp"
+	"../vectors/Vector3D.hpp"
+	"../app/Environment.hpp"
+
+1286480886 vironment.hpp"
+
+1310345029 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\physicalobject.hpp
+	"../vectors/Vector3D.hpp"
+	"../vectors/Ray3D.hpp"
+	"../editor/ActiveVector2D.hpp"
+	"../shapes/ShapeCollection.hpp"
+	"LineSegment.hpp"
+	<string>
+	<list>
+	<vector>
+
+1281872280 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\activevector2d.hpp
+	"MouseMotionListener.hpp"
+	"../vectors/Vector2D.hpp"
+
+1281872280 s/Vector2D.hpp"
+
+1287537158 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\mousemotionlistener.hpp
+
+1286127436 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\shapecollection.hpp
+	"Shape.hpp"
+	<list>
+
+1304636131 "
+
+1287383434 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\shape.hpp
+	"../vectors/Ray3D.hpp"
+
+1287383435 s/Ray3D.hpp"
+
+1306470348 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\linesegment.hpp
+	"../vectors/Vector3D.hpp"
+	"../vectors/Rotator3D.hpp"
+	<string>
+
+1285740820 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\rotator3d.hpp
+	"Vector3D.hpp"
+	"Matrix.hpp"
+
+1285715874 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\matrix.hpp
+	"Vector3D.hpp"
+
+1283475864 hpp"
+
+1311380529 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\app\environment.hpp
+	"../editor/ActiveVector2D.hpp"
+	"../vectors/Vector2D.hpp"
+	<list>
+	<iostream>
+	<string>
+	"../physicalobjects/InteractiveObject.hpp"
+	"../threads/Mutex.hpp"
+
+1306863872 alobjects/InteractiveObject.hpp"
+
+1309913155 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\rotatable.hpp
+	"../stdafx.h"
+	<list>
+	"../editor/ActiveVector2D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1310345141 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\complexobject.hpp
+	"PhysicalObject.hpp"
+	"GCommand.hpp"
+	<list>
+	"TranslateObjectWrapper.hpp"
+
+1306469324 ObjectWrapper.hpp"
+
+1310345201 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\gcommand.hpp
+	"../vectors/Vector3D.hpp"
+	"LineSegment.hpp"
+	<vector>
+
+1310344894 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\translateobjectwrapper.hpp
+	"GCommand.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+	"../vectors/Vector3D.hpp"
+	<string>
+
+1310566305 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\robotichelicopter.hpp
+	"InteractiveObject.hpp"
+	"Rotatable.hpp"
+	"ComplexObject.hpp"
+	"../shapes/ShapeCollection.hpp"
+
+1286480886 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\robotcontrollers\robotcontroller.hpp
+	"../physicalobjects/RoboticCar.hpp"
+	"../app/Environment.hpp"
+
+1306859102 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\backdrop.hpp
+	"ComplexObject.hpp"
+	<string>
+
+1305139602 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\utilities.hpp
+
+1287204680 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\threads\thread.hpp
+	"../stdafx.h"
+	<unistd.h>
+	<sys/types.h>
+	<errno.h>
+	<stdlib.h>
+	<pthread.h>
+	<windows.h>
+
+989765248 c:\program files\codeblocks\mingw\include\pthread.h
+	<windows.h>
+	"config.h"
+	<time.h>
+	<signal.h>
+	<setjmp.h>
+	<limits.h>
+	"need_errno.h"
+	<errno.h>
+	<sched.h>
+	<sys/types.h>
+
+989765248 s.h>
+
+1250308680 c:\program files\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1250308680 c:\program files\codeblocks\mingw\include\signal.h
+	<_mingw.h>
+
+1250308678 c:\program files\codeblocks\mingw\include\setjmp.h
+	<_mingw.h>
+
+1250308678 c:\program files\codeblocks\mingw\include\limits.h
+	<_mingw.h>
+
+989765248 c:\program files\codeblocks\mingw\include\sched.h
+	"need_errno.h"
+	<errno.h>
+	<sys/types.h>
+	<time.h>
+
+1273693292 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\console.hpp
+
+1286514802 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\docserver.hpp
+	"../stdafx.h"
+	"../io/ServerSocket.hpp"
+	"../threads/Thread.hpp"
+
+1284995708 s/Thread.hpp"
+
+1310520246 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\app\application.cpp
+	"Application.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../threads/JobCollection.hpp"
+	"../threads/Thread.hpp"
+	"../ui/TrackEditorUI.hpp"
+	"../ui/SensorEditorUI.hpp"
+	"../io/FileDirectory.hpp"
+	"../graphics/Texture.hpp"
+	"../graphics/Graphics2D.hpp"
+	"../threads/Thread.hpp"
+	"../io/HTTPParser.hpp"
+	"../splash/Introduction.hpp"
+	"../physicalobjects/Backdrop.hpp"
+	<cstdlib>
+	<sstream>
+	<fstream>
+	<cmath>
+
+1310346231 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\threads\jobcollection.hpp
+	<list>
+	"Job.hpp"
+	"Mutex.hpp"
+
+1309874219 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\simulationui.hpp
+	"UserInterface.hpp"
+	"../sensors/VideoDevice.hpp"
+
+1307086922 face.hpp"
+
+1307086922 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\trackeditorui.hpp
+	"UserInterface.hpp"
+	"../editor/CircuitDesign.hpp"
+
+1307086922 /CircuitDesign.hpp"
+
+1310316080 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\circuitdesign.hpp
+	<iostream>
+	<list>
+	"../app/Environment.hpp"
+	"ActiveVector2D.hpp"
+	"../physicalobjects/RoboticCar.hpp"
+
+1287905512 alobjects/RoboticCar.hpp"
+
+1309913544 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\sensoreditorui.hpp
+	<list>
+	"UserInterface.hpp"
+	"../sensors/Sensor.hpp"
+	"../sensors/UltrasonicSensor.hpp"
+	"../editor/SensorRepositionMouseListener.hpp"
+	"../vectors/PerspectiveViewTransformer.hpp"
+
+1288195132 s/PerspectiveViewTransformer.hpp"
+
+1287713784 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\ultrasonicsensor.hpp
+	"Sensor.hpp"
+
+1287556264 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\sensorrepositionmouselistener.hpp
+	"MouseMotionListener.hpp"
+	"../sensors/Sensor.hpp"
+
+1287987969 s/Sensor.hpp"
+
+1288189850 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\perspectiveviewtransformer.hpp
+	"ViewTransformer.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1288039364 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\viewtransformer.hpp
+	"Vector3D.hpp"
+
+1287585270 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\filedirectory.hpp
+	<string>
+	<list>
+
+1309971772 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\texture.hpp
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<list>
+	"TextureContext.hpp"
+
+1310517221 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\graphics2d.hpp
+	"../stdafx.h"
+	"../vectors/Vector2DInt.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1287728418 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\vector2dint.hpp
+	"../stdafx.h"
+	<windows.h>
+
+1288308454 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\splash\introduction.hpp
+
+1311380733 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\app\environment.cpp
+	"../stdafx.h"
+	"../robotcontrollers/TCPIPRobotController.hpp"
+	"Application.hpp"
+	"Environment.hpp"
+	"../physicalobjects/Pylon.hpp"
+	"../physicalobjects/TrafficLight.hpp"
+	"../physicalobjects/StopSign.hpp"
+	"../physicalobjects/Ramp.hpp"
+	"../physicalobjects/Tunnel.hpp"
+	"../physicalobjects/RoboticHelicopter.hpp"
+	"../physicalobjects/VerticalWall.hpp"
+	"../editor/CircuitDesign.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../sensors/Lidar.hpp"
+	"../sensors/UltrasonicSensor.hpp"
+	"../docserver/DocServer.hpp"
+	"../io/HTTPParser.hpp"
+	"../io/FileDirectory.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	"../shapes/ZeroPlane.hpp"
+	"../ui/SensorEditorUI.hpp"
+	<ctime>
+	<list>
+	<iostream>
+	<fstream>
+	<sstream>
+	<cmath>
+	<limits>
+
+1284995140 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\robotcontrollers\tcpiprobotcontroller.hpp
+	"RobotController.hpp"
+	"../io/ServerSocket.hpp"
+
+1284995140 verSocket.hpp"
+
+1310344894 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\pylon.hpp
+	"../stdafx.h"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"InteractiveObject.hpp"
+	"../shapes/Cone.hpp"
+	<iostream>
+
+1286424356 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\cone.hpp
+	"Shape.hpp"
+
+1310344894 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\trafficlight.hpp
+	"InteractiveObject.hpp"
+	"Rotatable.hpp"
+	<iostream>
+
+1310344894 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\stopsign.hpp
+	"PhysicalObject.hpp"
+	"Rotatable.hpp"
+
+1310345084 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\ramp.hpp
+	"../io/Socket.hpp"
+	"InteractiveObject.hpp"
+	"Pylon.hpp"
+	"Rotatable.hpp"
+	<list>
+
+1310344894 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\tunnel.hpp
+	"PhysicalObject.hpp"
+	"Rotatable.hpp"
+	"Pylon.hpp"
+	<list>
+
+1309167653 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\lidar.hpp
+	"Sensor.hpp"
+	<iostream>
+	<string>
+
+1282146814 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\modelio\rrsmcomplexobjectloader.hpp
+	"ComplexObjectLoader.hpp"
+
+1282146878 jectLoader.hpp"
+
+1282146900 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\modelio\complexobjectloader.hpp
+	"../physicalobjects/ComplexObject.hpp"
+
+1282146900 alobjects/ComplexObject.hpp"
+
+1285904062 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\zeroplane.hpp
+	"Shape.hpp"
+
+1310050905 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\app\environmentremovephysicalobjectjob.cpp
+	"EnvironmentRemovePhysicalObjectJob.hpp"
+
+1305397536 ntRemovePhysicalObjectJob.hpp"
+
+1310050873 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\app\environmentremovephysicalobjectjob.hpp
+	"Environment.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+	"../threads/Job.hpp"
+
+1305397633 s/Job.hpp"
+
+1286056512 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\constant.cpp
+	"Constant.hpp"
+	"SingleVariableValue.hpp"
+
+1286056972 iableValue.hpp"
+
+1286056296 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\constant.hpp
+	"NamedValue.hpp"
+
+1286057496 e.hpp"
+
+1286056240 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\namedvalue.hpp
+	"VariableValue.hpp"
+	<string>
+
+1286056972 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\variablevalue.hpp
+	<string>
+
+1286056904 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\singlevariablevalue.hpp
+	<string>
+	"VariableValue.hpp"
+
+1284819294 alue.hpp"
+
+1286057338 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\namedvalue.cpp
+	"NamedValue.hpp"
+
+1286056972 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\singlevariablevalue.cpp
+	"SingleVariableValue.hpp"
+
+1286057998 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\variable.cpp
+	"Variable.hpp"
+	"SingleVariableValue.hpp"
+	"ArrayVariableValue.hpp"
+	<iostream>
+
+1286057496 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\variable.hpp
+	"NamedValue.hpp"
+
+1286056972 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\arrayvariablevalue.hpp
+	"VariableValue.hpp"
+	<vector>
+
+1286057724 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\variablecollection.cpp
+	"VariableCollection.hpp"
+	<iostream>
+
+1286060530 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\variablecollection.hpp
+	"NamedValue.hpp"
+	<string>
+	<list>
+
+1308782921 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\variablecollectionstack.cpp
+	"VariableCollectionStack.hpp"
+	"SingleVariableValue.hpp"
+	"ArrayVariableValue.hpp"
+	"Variable.hpp"
+	"../app/Environment.hpp"
+	<iostream>
+
+1286060452 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\variablecollectionstack.hpp
+	"VariableCollection.hpp"
+	"VariableValue.hpp"
+	<vector>
+
+1284819294 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\variablevalue.cpp
+	"VariableValue.hpp"
+
+1281898642 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\activevector2d.cpp
+	"ActiveVector2D.hpp"
+
+1281898642 tor2D.hpp"
+
+1281891052 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\mousemotionlistener.cpp
+	"MouseMotionListener.hpp"
+
+1281891052 onListener.hpp"
+
+1288196474 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\perspectivemousemotionlistener.cpp
+	"PerspectiveMouseMotionListener.hpp"
+
+1288196475 veMouseMotionListener.hpp"
+
+1288195132 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\perspectivemousemotionlistener.hpp
+	"MouseMotionListener.hpp"
+	"../vectors/PerspectiveViewTransformer.hpp"
+
+1288032728 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\repositionmousemotionlistener.cpp
+	"RepositionMouseMotionListener.hpp"
+
+1288032728 nMouseMotionListener.hpp"
+
+1281930352 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\repositionmousemotionlistener.hpp
+	"MouseMotionListener.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+
+1281930352 alobjects/PhysicalObject.hpp"
+
+1281864326 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\rotationmousemotionlistener.cpp
+	"RotationMouseMotionListener.hpp"
+
+1281864326 ouseMotionListener.hpp"
+
+1307025784 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\rotationmousemotionlistener.hpp
+	"MouseMotionListener.hpp"
+	"../physicalobjects/Rotatable.hpp"
+
+1307025785 alobjects/Rotatable.hpp"
+
+1288032986 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\sensorrepositionmouselistener.cpp
+	"SensorRepositionMouseListener.hpp"
+	"../ui/SensorEditorUI.hpp"
+
+1287990778 sorEditorUI.hpp"
+
+1287990778 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\sensorrotationmouselistener.cpp
+	"SensorRotationMouseListener.hpp"
+	"../io/HTTPParser.hpp"
+	"../ui/SensorEditorUI.hpp"
+
+1287987968 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\sensorrotationmouselistener.hpp
+	"MouseMotionListener.hpp"
+	"../sensors/Sensor.hpp"
+
+1310225236 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\bitmapimage.cpp
+	"BitmapImage.hpp"
+	"../io/LEFStreams_.hpp"
+	<iostream>
+	<cstdlib>
+
+1280758110 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\lefstreams_.hpp
+	<iostream>
+	<fstream>
+
+1287382388 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\rotator2d.cpp
+	"Rotator2D.hpp"
+	"../stdafx.h"
+	<cmath>
+
+1310168366 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\texture.cpp
+	"Texture.hpp"
+	"BitmapImage.hpp"
+	"../app/Application.hpp"
+	<cmath>
+	<cstdlib>
+	<iostream>
+	<vector>
+
+1307025784 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\arrayvariablevalue.cpp
+	"ArrayVariableValue.hpp"
+	<string>
+	<iostream>
+
+1311380763 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\docserver.cpp
+	"DocServer.hpp"
+	"THTMLProcessor.hpp"
+	"Constant.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../sensors/Lidar.hpp"
+	"../graphics/BitmapImage.hpp"
+	"../io/HTTPRequest.hpp"
+	"../io/HTTPResponse.hpp"
+	"../io/HTTPParser.hpp"
+	"../threads/Job.hpp"
+	"../app/Environment.hpp"
+	"../app/Application.hpp"
+	"../physicalobjects/Pylon.hpp"
+	"../physicalobjects/Ramp.hpp"
+	"../physicalobjects/TrafficLight.hpp"
+	"../physicalobjects/StopSign.hpp"
+	"../physicalobjects/VerticalWall.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	<iostream>
+	<vector>
+	<cstdio>
+	<sstream>
+
+1286002738 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\thtmlprocessor.hpp
+	<string>
+	<vector>
+	"VariableCollectionStack.hpp"
+
+1286002738 ollectionStack.hpp"
+
+1307025784 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\docserver\thtmlprocessor.cpp
+	"THTMLProcessor.hpp"
+	"SingleVariableValue.hpp"
+	"ArrayVariableValue.hpp"
+	"Variable.hpp"
+	"../io/HTTPParser.hpp"
+	<cstdlib>
+	<cstdio>
+	<sstream>
+
+1310316061 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\circuitdesign.cpp
+	"CircuitDesign.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cstring>
+	<cmath>
+
+1310517199 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\graphics2d.cpp
+	"Graphics2D.hpp"
+	"../app/Application.hpp"
+	"../vectors/Vector2D.hpp"
+	"Rotator2D.hpp"
+	<cmath>
+
+1311361187 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\filedirectory.cpp
+	"FileDirectory.hpp"
+	"../stdafx.h"
+	<sys/types.h>
+	<dirent.h>
+	<errno.h>
+	<windows.h>
+	<cstring>
+	<iostream>
+	<cstdio>
+
+1250308676 c:\program files\codeblocks\mingw\include\dirent.h
+	<_mingw.h>
+	<io.h>
+
+1284239630 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httpfield.cpp
+	"HTTPField.hpp"
+
+1284756794 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httpfieldset.cpp
+	"HTTPFieldSet.hpp"
+
+1284756794 Set.hpp"
+
+1311203830 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httpparser.cpp
+	"HTTPParser.hpp"
+	<cstring>
+	<sstream>
+	<cstdlib>
+	<cstdio>
+
+1306220668 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httprequest.cpp
+	"HTTPRequest.hpp"
+
+1306220669 st.hpp"
+
+1306819312 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\httpresponse.cpp
+	"HTTPResponse.hpp"
+	"HTTPParser.hpp"
+	<string>
+	<list>
+	<iostream>
+	<sstream>
+	<fstream>
+	<cstdlib>
+	<cstdio>
+
+1269236290 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\leinputstream_.cpp
+	"LEFStreams_.hpp"
+
+1269236350 s_.hpp"
+
+1269236350 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\leoutputstream_.cpp
+	"LEFStreams_.hpp"
+
+1306240220 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\parameter.cpp
+	"Parameter.hpp"
+	<cstring>
+
+1306239634 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\parametercollection.cpp
+	"ParameterCollection.hpp"
+	<cstring>
+	<iostream>
+
+1307270808 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\serversocket.cpp
+	"ServerSocket.hpp"
+	<cstdio>
+
+1307035448 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\socket.cpp
+	"Socket.hpp"
+	<iostream>
+	<cstdlib>
+	<ws2tcpip.h>
+	<winsock.h>
+	<cstdio>
+
+1228534334 c:\program files\codeblocks\mingw\include\ws2tcpip.h
+	<winsock2.h>
+
+1286529132 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\io\console.cpp
+	"console.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<iomanip>
+	<fcntl.h>
+	<io.h>
+	<ios>
+	<iostream>
+	<stdio.h>
+	<fstream>
+
+1250308676 c:\program files\codeblocks\mingw\include\fcntl.h
+	<_mingw.h>
+	<io.h>
+
+1250308680 c:\program files\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1282059638 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\modelio\complexobjectloader.cpp
+	"ComplexObjectLoader.hpp"
+
+1282146886 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\modelio\objcomplexobjectloader.cpp
+	"OBJComplexObjectLoader.hpp"
+
+1282146886 xObjectLoader.hpp"
+
+1282146878 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\modelio\objcomplexobjectloader.hpp
+	"ComplexObjectLoader.hpp"
+
+1307828592 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\modelio\rrsmcomplexobjectloader.cpp
+	"../stdafx.h"
+	"RRSMComplexObjectLoader.hpp"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstring>
+	<cmath>
+	<cstdlib>
+	"../app/Application.hpp"
+	"../physicalobjects/Quad.hpp"
+	"../physicalobjects/UseTextureCommand.hpp"
+	"../physicalobjects/TranslateObjectWrapper.hpp"
+	"../physicalobjects/PolygonCommand.hpp"
+
+1305395449 alobjects/PolygonCommand.hpp"
+
+1310345257 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\quad.hpp
+	"../vectors/Vector3D.hpp"
+	"GCommand.hpp"
+
+1310344894 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\usetexturecommand.hpp
+	"../graphics/Texture.hpp"
+	"GCommand.hpp"
+
+1310345201 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\polygoncommand.hpp
+	"../stdafx.h"
+	"../vectors/Vector3D.hpp"
+	"GCommand.hpp"
+	<list>
+
+1306859124 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\backdrop.cpp
+	"Backdrop.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	<sstream>
+
+1310345141 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\complexobject.cpp
+	"ComplexObject.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<sstream>
+	"../shapes/ZeroPlane.hpp"
+
+1306469430 /ZeroPlane.hpp"
+
+1306466702 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\gcommand.cpp
+	"GCommand.hpp"
+
+1306091900 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\interactiveobject.cpp
+	"InteractiveObject.hpp"
+
+1306091901 veObject.hpp"
+
+1306470340 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\linesegment.cpp
+	"LineSegment.hpp"
+	<sstream>
+
+1308781041 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\physicalobject.cpp
+	"PhysicalObject.hpp"
+	"../app/Environment.hpp"
+	"../app/Application.hpp"
+	"../editor/RepositionMouseMotionListener.hpp"
+	<cmath>
+	<sstream>
+
+1306468782 /RepositionMouseMotionListener.hpp"
+
+1310345215 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\polygoncommand.cpp
+	"PolygonCommand.hpp"
+	"../app/Application.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1310345286 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\pylon.cpp
+	"Pylon.hpp"
+	"../shapes/Cone.hpp"
+	"../app/Application.hpp"
+	<cstdlib>
+	<cmath>
+	<iostream>
+
+1310345257 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\quad.cpp
+	"Quad.hpp"
+	"../stdafx.h"
+	"../vectors/Vector2D.hpp"
+	"../app/Application.hpp"
+	<windows.h>
+	<gl/glut.h>
+	<gl/glu.h>
+
+1310345084 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\ramp.cpp
+	"Ramp.hpp"
+	"../io/Socket.hpp"
+	"../stdafx.h"
+	<cmath>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../shapes/VerticalIsoscelesTriangle.hpp"
+	"../shapes/SlantedRectangle.hpp"
+	"../app/Application.hpp"
+
+1306258701 plication.hpp"
+
+1287346080 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\verticalisoscelestriangle.hpp
+	"VerticalRectangle.hpp"
+
+1287346080 ectangle.hpp"
+
+1287376024 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\verticalrectangle.hpp
+	"Shape.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1287379948 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\slantedrectangle.hpp
+	"../stdafx.h"
+	"Shape.hpp"
+	"../vectors/Vector3D.hpp"
+	"../vectors/Ray3D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1310703679 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\roboticcar.cpp
+	"../stdafx.h"
+	"RoboticCar.hpp"
+	"../robotcontrollers/PylonAvoider.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<fstream>
+	<cmath>
+	<algorithm>
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	"../shapes/VerticalRectangle.hpp"
+	"../app/Application.hpp"
+	"../app/EnvironmentRemovePhysicalObjectJob.hpp"
+
+1307028939 vironmentRemovePhysicalObjectJob.hpp"
+
+1282597922 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\robotcontrollers\pylonavoider.hpp
+	"RobotController.hpp"
+
+1281931044 roller.hpp"
+
+1310568661 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\robotichelicopter.cpp
+	"../stdafx.h"
+	"RoboticHelicopter.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../app/Application.hpp"
+	<windows.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1309913228 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\rotatable.cpp
+	"Rotatable.hpp"
+	"../editor/RotationMouseMotionListener.hpp"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+
+1310345315 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\stopsign.cpp
+	"../stdafx.h"
+	"StopSign.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/glut.h>
+	<gl/glu.h>
+	<cmath>
+	<iostream>
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+
+1306944027 cs/Texture.hpp"
+
+1310345333 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\trafficlight.cpp
+	"TrafficLight.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	<windows.h>
+	<gl/glut.h>
+	<gl/glu.h>
+	<cmath>
+
+1310345357 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\translateobjectwrapper.cpp
+	"TranslateObjectWrapper.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../vectors/Rotator3D.hpp"
+	<cstring>
+
+1310345367 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\tunnel.cpp
+	"Tunnel.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+	"../app/Application.hpp"
+	"../shapes/VerticalRectangle.hpp"
+	"../shapes/HorizontalRectangle.hpp"
+
+1306258674 /HorizontalRectangle.hpp"
+
+1287384618 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\horizontalrectangle.hpp
+	"../stdafx.h"
+	"Shape.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1310345180 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\usetexturecommand.cpp
+	"UseTextureCommand.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1287340012 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\robotcontrollers\pathfinder.cpp
+	"PathFinder.hpp"
+	"../stdafx.h"
+	"../graphics/BitmapImage.hpp"
+	"../vectors/Vector2DInt.hpp"
+	<cmath>
+	<list>
+
+1307087177 s/Vector2DInt.hpp"
+
+1286592276 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\robotcontrollers\pathfinder.hpp
+	"../vectors/Vector2D.hpp"
+	<list>
+	<vector>
+
+1287343962 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\robotcontrollers\pylonavoider.cpp
+	"PylonAvoider.hpp"
+	"PathFinder.hpp"
+
+1287343962 r.hpp"
+
+1281931044 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\robotcontrollers\robotcontroller.cpp
+	"RobotController.hpp"
+
+1284995708 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\robotcontrollers\tcpiprobotcontroller.cpp
+	"TCPIPRobotController.hpp"
+	"../threads/Thread.hpp"
+
+1309167822 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\lidar.cpp
+	"Lidar.hpp"
+	"../io/HTTPParser.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	"../vectors/Rotator3D.hpp"
+	<iostream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+
+1310518533 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\sensor.cpp
+	"Sensor.hpp"
+	<sstream>
+	"../io/HTTPParser.hpp"
+	"../app/Application.hpp"
+
+1306081745 PParser.hpp"
+
+1287713954 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\ultrasonicsensor.cpp
+	"UltrasonicSensor.hpp"
+	"../io/HTTPParser.hpp"
+	"../app/Application.hpp"
+	"../vectors/Ray3D.hpp"
+	<iostream>
+
+1310775628 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\videodevice.cpp
+	"VideoDevice.hpp"
+	"../io/ServerSocket.hpp"
+	"../threads/Thread.hpp"
+	"../io/HTTPRequest.hpp"
+	"../io/HTTPResponse.hpp"
+	"../graphics/BitmapImage.hpp"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	"../graphics/Graphics2D.hpp"
+	"../stdafx.h"
+	<cstdlib>
+	<gl/gl.h>
+	<gl/glu.h>
+	<string>
+	<sstream>
+	<cstdio>
+
+1307676640 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\cone.cpp
+	"Cone.hpp"
+	"../stdafx.h"
+	<iostream>
+	<cmath>
+
+1286588214 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\conetester.cpp
+	"ConeTester.hpp"
+	<iostream>
+	<cmath>
+
+1285836696 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\conetester.hpp
+	"Cone.hpp"
+
+1287385870 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\horizontalrectangle.cpp
+	"HorizontalRectangle.hpp"
+	<cmath>
+
+1287385871 lRectangle.hpp"
+
+1307709687 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\shape.cpp
+	"Shape.hpp"
+
+1307710533 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\shapecollection.cpp
+	"../stdafx.h"
+	"ShapeCollection.hpp"
+	<cmath>
+
+1304622494 ection.hpp"
+
+1287384396 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\slantedrectangle.cpp
+	"SlantedRectangle.hpp"
+	<cmath>
+
+1287384397 ctangle.hpp"
+
+1287376034 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\verticalisoscelestriangle.cpp
+	"VerticalIsoscelesTriangle.hpp"
+	<iostream>
+	<cmath>
+
+1307709764 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\verticalrectangle.cpp
+	"VerticalRectangle.hpp"
+	"../stdafx.h"
+	<iostream>
+	<cmath>
+
+1307709731 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\zeroplane.cpp
+	"ZeroPlane.hpp"
+	<iostream>
+	<cmath>
+
+1286869296 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\zeroplanetester.cpp
+	"ZeroPlaneTester.hpp"
+	<iostream>
+	<cmath>
+
+1285835792 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\shapes\zeroplanetester.hpp
+	"ZeroPlane.hpp"
+
+1288308412 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\splash\introduction.cpp
+	"Introduction.hpp"
+	"SplashWindow.hpp"
+	"../threads/Thread.hpp"
+	<iostream>
+
+1307236854 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\splash\splashwindow.hpp
+	"../stdafx.h"
+	<windows.h>
+
+1307237314 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\splash\splashwindow.cpp
+	"SplashWindow.hpp"
+	<ctime>
+	<iostream>
+
+1285305212 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\threads\job.cpp
+	"Job.hpp"
+
+1310487047 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\threads\jobcollection.cpp
+	"JobCollection.hpp"
+
+1285304614 tion.hpp"
+
+1287216978 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\threads\thread.cpp
+	"Thread.hpp"
+	<iostream>
+	<ctime>
+	<unistd.h>
+
+1310173749 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\sensoreditorui.cpp
+	"SensorEditorUI.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	"../graphics/Graphics2D.hpp"
+	"../sensors/UltrasonicSensor.hpp"
+	"../sensors/Lidar.hpp"
+	"../vectors/Vector2D.hpp"
+	"../editor/SensorRotationMouseListener.hpp"
+	"../editor/PerspectiveMouseMotionListener.hpp"
+	"Utilities.hpp"
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<cstdio>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1309913779 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\simulationui.cpp
+	"SimulationUI.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+	"Utilities.hpp"
+	"../app/Application.hpp"
+	"../physicalobjects/RoboticCar.hpp"
+	"../app/Environment.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../vectors/Vector2DInt.hpp"
+	<cstring>
+	<cstdio>
+
+1309913824 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\trackeditorui.cpp
+	"TrackEditorUI.hpp"
+	"Utilities.hpp"
+	"../physicalobjects/Pylon.hpp"
+	"../physicalobjects/StopSign.hpp"
+	"../physicalobjects/TrafficLight.hpp"
+	"../physicalobjects/Tunnel.hpp"
+	"../physicalobjects/Ramp.hpp"
+	"../editor/MouseMotionListener.hpp"
+	"../robotcontrollers/PylonAvoider.hpp"
+	"../app/Application.hpp"
+	"../vectors/Vector2DInt.hpp"
+	"../graphics/Graphics2D.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+	<list>
+	<cstdio>
+
+1307086996 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\userinterface.cpp
+	"UserInterface.hpp"
+	<iostream>
+
+1307237402 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\ui\utilities.cpp
+	"Utilities.hpp"
+	"../stdafx.h"
+	"../docserver/DocServer.hpp"
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<windows.h>
+	<cstdio>
+
+1307237898 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\matrix.cpp
+	"Matrix.hpp"
+	<cstdlib>
+	<iostream>
+
+1288189876 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\perspectiveviewtransformer.cpp
+	"PerspectiveViewTransformer.hpp"
+	<cmath>
+
+1288189876 veViewTransformer.hpp"
+
+1287380246 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\ray3d.cpp
+	"Ray3D.hpp"
+	"Rotator3D.hpp"
+	"../stdafx.h"
+
+1285740338 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\rotator3d.cpp
+	"Rotator3D.hpp"
+	<cmath>
+
+1285741554 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\rotator3dtester.cpp
+	"Rotator3DTester.hpp"
+	"../stdafx.h"
+	<iostream>
+	<string>
+	<cmath>
+
+1285739946 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\rotator3dtester.hpp
+	"Rotator3D.hpp"
+
+1311360760 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\vector2d.cpp
+	"Vector2D.hpp"
+	<cmath>
+
+1287728448 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\vector2dint.cpp
+	"Vector2DInt.hpp"
+
+1287728449 nt.hpp"
+
+1307796889 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\vector3d.cpp
+	"Vector3D.hpp"
+	"../stdafx.h"
+	<cmath>
+	<iostream>
+	<sstream>
+	"Rotator3D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1288042028 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\vectors\viewtransformer.cpp
+	"ViewTransformer.hpp"
+	<iostream>
+
+1066758114 c:\program files\codeblocks\mingw\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1097560544 ext.h"
+
+1260931060 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1249951198 c:\program files\codeblocks\mingw\include\gl\freeglut_ext.h
+
+1097560544 c:\program files\codeblocks\mingw\include\gl\openglut.h
+	"openglut_std.h"
+	"openglut_ext.h"
+
+1097560544 c:\program files\codeblocks\mingw\include\gl\openglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1097560544 c:\program files\codeblocks\mingw\include\gl\openglut_ext.h
+
+1307295679 source:/home/student/opengl/IARRC_Sim/src/app/Application.cpp
+	"Application.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../threads/JobCollection.hpp"
+	"../threads/Thread.hpp"
+	"../ui/SimulationUI.hpp"
+	"../ui/TrackEditorUI.hpp"
+	"../ui/SensorEditorUI.hpp"
+	"../io/FileDirectory.hpp"
+	"../graphics/Texture.hpp"
+	"../graphics/Graphics2D.hpp"
+	"../threads/Thread.hpp"
+	"../io/HTTPParser.hpp"
+	"../splash/Introduction.hpp"
+	"../physicalobjects/Backdrop.hpp"
+	<cstdlib>
+	<sstream>
+	<fstream>
+	<cmath>
+
+1307295432 /home/student/opengl/IARRC_Sim/src/app/Application.hpp
+	"../stdafx.h"
+	"../io/Socket.hpp"
+	"../threads/Job.hpp"
+	"../sensors/Sensor.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../vectors/Ray3D.hpp"
+	"../ui/UserInterface.hpp"
+	"../physicalobjects/RoboticCar.hpp"
+	"../physicalobjects/Backdrop.hpp"
+	"Environment.hpp"
+	<string>
+	<vector>
+	<windows.h>
+
+1307295432 /home/student/opengl/IARRC_Sim/src/stdafx.h
+	"io/Socket.hpp"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	<GLUT/glut.h>
+	<GL/openglut.h>
+
+1286339218 /home/student/opengl/IARRC_Sim/src/io/Socket.hpp
+	"../stdafx.h"
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<netdb.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<winsock2.h>
+	<iostream>
+
+1285305140 /home/student/opengl/IARRC_Sim/src/threads/Job.hpp
+
+1287568040 /home/student/opengl/IARRC_Sim/src/sensors/Sensor.hpp
+	<string>
+	"../vectors/Vector3D.hpp"
+
+1306465710 /home/student/opengl/IARRC_Sim/src/vectors/Vector3D.hpp
+	<iostream>
+	<string>
+
+1307032762 /home/student/opengl/IARRC_Sim/src/sensors/VideoDevice.hpp
+	"../io/Socket.hpp"
+	"../io/ServerSocket.hpp"
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<string>
+	"../ui/UserInterface.hpp"
+	"../graphics/BitmapImage.hpp"
+	"../threads/Job.hpp"
+	"Sensor.hpp"
+
+1287216714 /home/student/opengl/IARRC_Sim/src/io/ServerSocket.hpp
+	"../stdafx.h"
+	<winsock2.h>
+	"Socket.hpp"
+
+1307086804 /home/student/opengl/IARRC_Sim/src/ui/UserInterface.hpp
+	"../stdafx.h"
+
+1284306042 /home/student/opengl/IARRC_Sim/src/graphics/BitmapImage.hpp
+
+1287379978 /home/student/opengl/IARRC_Sim/src/vectors/Ray3D.hpp
+	"Vector3D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1287380332 /home/student/opengl/IARRC_Sim/src/graphics/Rotator2D.hpp
+	"../vectors/Vector2D.hpp"
+	"../vectors/Vector3D.hpp"
+
+1283475824 /home/student/opengl/IARRC_Sim/src/vectors/Vector2D.hpp
+	<iostream>
+
+1307028870 /home/student/opengl/IARRC_Sim/src/physicalobjects/RoboticCar.hpp
+	"InteractiveObject.hpp"
+	"Rotatable.hpp"
+	"ComplexObject.hpp"
+	"RoboticHelicopter.hpp"
+	"../robotcontrollers/RobotController.hpp"
+	"../shapes/ShapeCollection.hpp"
+
+1306091900 /home/student/opengl/IARRC_Sim/src/physicalobjects/InteractiveObject.hpp
+	"PhysicalObject.hpp"
+	"../vectors/Vector3D.hpp"
+	"../app/Environment.hpp"
+
+1306468970 /home/student/opengl/IARRC_Sim/src/physicalobjects/PhysicalObject.hpp
+	"../vectors/Vector3D.hpp"
+	"../vectors/Ray3D.hpp"
+	"../editor/ActiveVector2D.hpp"
+	"../shapes/ShapeCollection.hpp"
+	"LineSegment.hpp"
+	<string>
+	<list>
+	<vector>
+
+1281872280 /home/student/opengl/IARRC_Sim/src/editor/ActiveVector2D.hpp
+	"MouseMotionListener.hpp"
+	"../vectors/Vector2D.hpp"
+
+1287537158 /home/student/opengl/IARRC_Sim/src/editor/MouseMotionListener.hpp
+
+1286127436 /home/student/opengl/IARRC_Sim/src/shapes/ShapeCollection.hpp
+	"Shape.hpp"
+	<list>
+
+1287383434 /home/student/opengl/IARRC_Sim/src/shapes/Shape.hpp
+	"../vectors/Ray3D.hpp"
+
+1306470348 /home/student/opengl/IARRC_Sim/src/physicalobjects/LineSegment.hpp
+	"../vectors/Vector3D.hpp"
+	"../vectors/Rotator3D.hpp"
+	<string>
+
+1285740820 /home/student/opengl/IARRC_Sim/src/vectors/Rotator3D.hpp
+	"Vector3D.hpp"
+	"Matrix.hpp"
+
+1285715874 /home/student/opengl/IARRC_Sim/src/vectors/Matrix.hpp
+	"Vector3D.hpp"
+
+1306863872 /home/student/opengl/IARRC_Sim/src/app/Environment.hpp
+	"../editor/ActiveVector2D.hpp"
+	"../vectors/Vector2D.hpp"
+	<list>
+	<iostream>
+	<string>
+	"../physicalobjects/InteractiveObject.hpp"
+
+1286514346 /home/student/opengl/IARRC_Sim/src/physicalobjects/Rotatable.hpp
+	"../stdafx.h"
+	<list>
+	"../editor/ActiveVector2D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1306469324 /home/student/opengl/IARRC_Sim/src/physicalobjects/ComplexObject.hpp
+	"PhysicalObject.hpp"
+	"GCommand.hpp"
+	<list>
+	"TranslateObjectWrapper.hpp"
+
+1306467502 /home/student/opengl/IARRC_Sim/src/physicalobjects/GCommand.hpp
+	"../vectors/Vector3D.hpp"
+	"LineSegment.hpp"
+	<vector>
+
+1306469726 /home/student/opengl/IARRC_Sim/src/physicalobjects/TranslateObjectWrapper.hpp
+	"GCommand.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+	"../vectors/Vector3D.hpp"
+	<string>
+
+1306593386 /home/student/opengl/IARRC_Sim/src/physicalobjects/RoboticHelicopter.hpp
+	"InteractiveObject.hpp"
+	"Rotatable.hpp"
+	"ComplexObject.hpp"
+	"../shapes/ShapeCollection.hpp"
+
+1286480886 /home/student/opengl/IARRC_Sim/src/robotcontrollers/RobotController.hpp
+	"../physicalobjects/RoboticCar.hpp"
+	"../app/Environment.hpp"
+
+1306859102 /home/student/opengl/IARRC_Sim/src/physicalobjects/Backdrop.hpp
+	"ComplexObject.hpp"
+	<string>
+
+1285304624 /home/student/opengl/IARRC_Sim/src/threads/JobCollection.hpp
+	<list>
+	"Job.hpp"
+
+1287204680 /home/student/opengl/IARRC_Sim/src/threads/Thread.hpp
+	"../stdafx.h"
+	<unistd.h>
+	<sys/types.h>
+	<errno.h>
+	<stdlib.h>
+	<pthread.h>
+	<windows.h>
+
+1307086922 /home/student/opengl/IARRC_Sim/src/ui/SimulationUI.hpp
+	"UserInterface.hpp"
+
+1307086922 /home/student/opengl/IARRC_Sim/src/ui/TrackEditorUI.hpp
+	"UserInterface.hpp"
+	"../editor/CircuitDesign.hpp"
+
+1287905512 /home/student/opengl/IARRC_Sim/src/editor/CircuitDesign.hpp
+	<iostream>
+	<list>
+	"../app/Environment.hpp"
+	"ActiveVector2D.hpp"
+	"../physicalobjects/RoboticCar.hpp"
+
+1307086922 /home/student/opengl/IARRC_Sim/src/ui/SensorEditorUI.hpp
+	<list>
+	"UserInterface.hpp"
+	"../sensors/Sensor.hpp"
+	"../sensors/UltrasonicSensor.hpp"
+	"../editor/SensorRepositionMouseListener.hpp"
+	"../vectors/PerspectiveViewTransformer.hpp"
+
+1287713784 /home/student/opengl/IARRC_Sim/src/sensors/UltrasonicSensor.hpp
+	"Sensor.hpp"
+
+1287556264 /home/student/opengl/IARRC_Sim/src/editor/SensorRepositionMouseListener.hpp
+	"MouseMotionListener.hpp"
+	"../sensors/Sensor.hpp"
+
+1288189850 /home/student/opengl/IARRC_Sim/src/vectors/PerspectiveViewTransformer.hpp
+	"ViewTransformer.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1288039364 /home/student/opengl/IARRC_Sim/src/vectors/ViewTransformer.hpp
+	"Vector3D.hpp"
+
+1287585270 /home/student/opengl/IARRC_Sim/src/io/FileDirectory.hpp
+	<string>
+	<list>
+
+1287856066 /home/student/opengl/IARRC_Sim/src/graphics/Texture.hpp
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1288400564 /home/student/opengl/IARRC_Sim/src/graphics/Graphics2D.hpp
+	"../stdafx.h"
+	"../vectors/Vector2DInt.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1287728418 /home/student/opengl/IARRC_Sim/src/vectors/Vector2DInt.hpp
+	"../stdafx.h"
+	<windows.h>
+
+1306219064 /home/student/opengl/IARRC_Sim/src/io/HTTPParser.hpp
+	"../stdafx.h"
+	"HTTPFieldSet.hpp"
+	"Socket.hpp"
+
+1284239388 /home/student/opengl/IARRC_Sim/src/io/HTTPFieldSet.hpp
+	<list>
+	<iostream>
+	"HTTPField.hpp"
+	"Socket.hpp"
+
+1284239286 /home/student/opengl/IARRC_Sim/src/io/HTTPField.hpp
+	<string>
+	<iostream>
+	"Socket.hpp"
+
+1288308454 /home/student/opengl/IARRC_Sim/src/splash/Introduction.hpp
+
+1307028938 source:/home/student/opengl/IARRC_Sim/src/app/Environment.cpp
+	"../stdafx.h"
+	"../robotcontrollers/TCPIPRobotController.hpp"
+	"Application.hpp"
+	"Environment.hpp"
+	"../physicalobjects/Pylon.hpp"
+	"../physicalobjects/TrafficLight.hpp"
+	"../physicalobjects/StopSign.hpp"
+	"../physicalobjects/Ramp.hpp"
+	"../physicalobjects/Tunnel.hpp"
+	"../physicalobjects/RoboticHelicopter.hpp"
+	"../editor/CircuitDesign.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../sensors/Lidar.hpp"
+	"../sensors/UltrasonicSensor.hpp"
+	"../docserver/DocServer.hpp"
+	"../io/HTTPParser.hpp"
+	"../io/FileDirectory.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	"../shapes/ZeroPlane.hpp"
+	"../ui/SensorEditorUI.hpp"
+	<ctime>
+	<list>
+	<iostream>
+	<fstream>
+	<sstream>
+	<cmath>
+	<limits>
+
+1284995140 /home/student/opengl/IARRC_Sim/src/robotcontrollers/TCPIPRobotController.hpp
+	"RobotController.hpp"
+	"../io/ServerSocket.hpp"
+
+1287893630 /home/student/opengl/IARRC_Sim/src/physicalobjects/Pylon.hpp
+	"../stdafx.h"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"InteractiveObject.hpp"
+	"../shapes/Cone.hpp"
+	<iostream>
+
+1286424356 /home/student/opengl/IARRC_Sim/src/shapes/Cone.hpp
+	"Shape.hpp"
+
+1284784514 /home/student/opengl/IARRC_Sim/src/physicalobjects/TrafficLight.hpp
+	"InteractiveObject.hpp"
+	"Rotatable.hpp"
+	<iostream>
+
+1306257788 /home/student/opengl/IARRC_Sim/src/physicalobjects/StopSign.hpp
+	"PhysicalObject.hpp"
+	"Rotatable.hpp"
+
+1306258740 /home/student/opengl/IARRC_Sim/src/physicalobjects/Ramp.hpp
+	"../io/Socket.hpp"
+	"InteractiveObject.hpp"
+	"Pylon.hpp"
+	"Rotatable.hpp"
+	<list>
+
+1306258740 /home/student/opengl/IARRC_Sim/src/physicalobjects/Tunnel.hpp
+	"PhysicalObject.hpp"
+	"Rotatable.hpp"
+	"Pylon.hpp"
+	<list>
+
+1287795124 /home/student/opengl/IARRC_Sim/src/sensors/Lidar.hpp
+	"Sensor.hpp"
+	<iostream>
+	<string>
+
+1286514802 /home/student/opengl/IARRC_Sim/src/docserver/DocServer.hpp
+	"../stdafx.h"
+	"../io/ServerSocket.hpp"
+	"../threads/Thread.hpp"
+
+1282146814 /home/student/opengl/IARRC_Sim/src/modelio/RRSMComplexObjectLoader.hpp
+	"ComplexObjectLoader.hpp"
+
+1282146900 /home/student/opengl/IARRC_Sim/src/modelio/ComplexObjectLoader.hpp
+	"../physicalobjects/ComplexObject.hpp"
+
+1285904062 /home/student/opengl/IARRC_Sim/src/shapes/ZeroPlane.hpp
+	"Shape.hpp"
+
+1305397536 source:/home/student/opengl/IARRC_Sim/src/app/EnvironmentRemovePhysicalObjectJob.cpp
+	"EnvironmentRemovePhysicalObjectJob.hpp"
+
+1305397632 /home/student/opengl/IARRC_Sim/src/app/EnvironmentRemovePhysicalObjectJob.hpp
+	"Environment.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+	"../threads/Job.hpp"
+
+1307025784 source:/home/student/opengl/IARRC_Sim/src/docserver/ArrayVariableValue.cpp
+	"ArrayVariableValue.hpp"
+	<string>
+	<iostream>
+
+1286056972 /home/student/opengl/IARRC_Sim/src/docserver/ArrayVariableValue.hpp
+	"VariableValue.hpp"
+	<vector>
+
+1286056972 /home/student/opengl/IARRC_Sim/src/docserver/VariableValue.hpp
+	<string>
+
+1286056512 source:/home/student/opengl/IARRC_Sim/src/docserver/Constant.cpp
+	"Constant.hpp"
+	"SingleVariableValue.hpp"
+
+1286056296 /home/student/opengl/IARRC_Sim/src/docserver/Constant.hpp
+	"NamedValue.hpp"
+
+1286056240 /home/student/opengl/IARRC_Sim/src/docserver/NamedValue.hpp
+	"VariableValue.hpp"
+	<string>
+
+1286056904 /home/student/opengl/IARRC_Sim/src/docserver/SingleVariableValue.hpp
+	<string>
+	"VariableValue.hpp"
+
+1307025784 source:/home/student/opengl/IARRC_Sim/src/docserver/DocServer.cpp
+	"DocServer.hpp"
+	"THTMLProcessor.hpp"
+	"Constant.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../sensors/Lidar.hpp"
+	"../graphics/BitmapImage.hpp"
+	"../io/HTTPRequest.hpp"
+	"../io/HTTPResponse.hpp"
+	"../io/HTTPParser.hpp"
+	"../threads/Job.hpp"
+	"../app/Environment.hpp"
+	"../app/Application.hpp"
+	"../physicalobjects/Pylon.hpp"
+	"../physicalobjects/Ramp.hpp"
+	"../physicalobjects/TrafficLight.hpp"
+	"../physicalobjects/StopSign.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	<iostream>
+	<vector>
+	<cstdio>
+	<sstream>
+
+1286002738 /home/student/opengl/IARRC_Sim/src/docserver/THTMLProcessor.hpp
+	<string>
+	<vector>
+	"VariableCollectionStack.hpp"
+
+1286060452 /home/student/opengl/IARRC_Sim/src/docserver/VariableCollectionStack.hpp
+	"VariableCollection.hpp"
+	"VariableValue.hpp"
+	<vector>
+
+1286060530 /home/student/opengl/IARRC_Sim/src/docserver/VariableCollection.hpp
+	"NamedValue.hpp"
+	<string>
+	<list>
+
+1306220624 /home/student/opengl/IARRC_Sim/src/io/HTTPRequest.hpp
+	"Socket.hpp"
+	"HTTPParser.hpp"
+	"ParameterCollection.hpp"
+	<list>
+	<iostream>
+	<string>
+
+1286059764 /home/student/opengl/IARRC_Sim/src/io/ParameterCollection.hpp
+	<list>
+	"Parameter.hpp"
+
+1306240016 /home/student/opengl/IARRC_Sim/src/io/Parameter.hpp
+
+1284996314 /home/student/opengl/IARRC_Sim/src/io/HTTPResponse.hpp
+	"HTTPFieldSet.hpp"
+	"Socket.hpp"
+	<string>
+
+1286057338 source:/home/student/opengl/IARRC_Sim/src/docserver/NamedValue.cpp
+	"NamedValue.hpp"
+
+1286056972 source:/home/student/opengl/IARRC_Sim/src/docserver/SingleVariableValue.cpp
+	"SingleVariableValue.hpp"
+
+1307025784 source:/home/student/opengl/IARRC_Sim/src/docserver/THTMLProcessor.cpp
+	"THTMLProcessor.hpp"
+	"SingleVariableValue.hpp"
+	"ArrayVariableValue.hpp"
+	"Variable.hpp"
+	"../io/HTTPParser.hpp"
+	<cstdlib>
+	<cstdio>
+	<sstream>
+
+1286057496 /home/student/opengl/IARRC_Sim/src/docserver/Variable.hpp
+	"NamedValue.hpp"
+
+1286057998 source:/home/student/opengl/IARRC_Sim/src/docserver/Variable.cpp
+	"Variable.hpp"
+	"SingleVariableValue.hpp"
+	"ArrayVariableValue.hpp"
+	<iostream>
+
+1286057724 source:/home/student/opengl/IARRC_Sim/src/docserver/VariableCollection.cpp
+	"VariableCollection.hpp"
+	<iostream>
+
+1286480886 source:/home/student/opengl/IARRC_Sim/src/docserver/VariableCollectionStack.cpp
+	"VariableCollectionStack.hpp"
+	"SingleVariableValue.hpp"
+	"ArrayVariableValue.hpp"
+	"Variable.hpp"
+	"../app/Environment.hpp"
+	<iostream>
+
+1284819294 source:/home/student/opengl/IARRC_Sim/src/docserver/VariableValue.cpp
+	"VariableValue.hpp"
+
+1281898642 source:/home/student/opengl/IARRC_Sim/src/editor/ActiveVector2D.cpp
+	"ActiveVector2D.hpp"
+
+1307025784 source:/home/student/opengl/IARRC_Sim/src/editor/CircuitDesign.cpp
+	"CircuitDesign.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cstring>
+	<cmath>
+
+1281891052 source:/home/student/opengl/IARRC_Sim/src/editor/MouseMotionListener.cpp
+	"MouseMotionListener.hpp"
+
+1288196474 source:/home/student/opengl/IARRC_Sim/src/editor/PerspectiveMouseMotionListener.cpp
+	"PerspectiveMouseMotionListener.hpp"
+
+1288195132 /home/student/opengl/IARRC_Sim/src/editor/PerspectiveMouseMotionListener.hpp
+	"MouseMotionListener.hpp"
+	"../vectors/PerspectiveViewTransformer.hpp"
+
+1288032728 source:/home/student/opengl/IARRC_Sim/src/editor/RepositionMouseMotionListener.cpp
+	"RepositionMouseMotionListener.hpp"
+
+1281930352 /home/student/opengl/IARRC_Sim/src/editor/RepositionMouseMotionListener.hpp
+	"MouseMotionListener.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+
+1281864326 source:/home/student/opengl/IARRC_Sim/src/editor/RotationMouseMotionListener.cpp
+	"RotationMouseMotionListener.hpp"
+
+1307025784 /home/student/opengl/IARRC_Sim/src/editor/RotationMouseMotionListener.hpp
+	"MouseMotionListener.hpp"
+	"../physicalobjects/Rotatable.hpp"
+
+1288032986 source:/home/student/opengl/IARRC_Sim/src/editor/SensorRepositionMouseListener.cpp
+	"SensorRepositionMouseListener.hpp"
+	"../ui/SensorEditorUI.hpp"
+
+1287990778 source:/home/student/opengl/IARRC_Sim/src/editor/SensorRotationMouseListener.cpp
+	"SensorRotationMouseListener.hpp"
+	"../io/HTTPParser.hpp"
+	"../ui/SensorEditorUI.hpp"
+
+1287987968 /home/student/opengl/IARRC_Sim/src/editor/SensorRotationMouseListener.hpp
+	"MouseMotionListener.hpp"
+	"../sensors/Sensor.hpp"
+
+1304822416 source:/home/student/opengl/IARRC_Sim/src/graphics/BitmapImage.cpp
+	"BitmapImage.hpp"
+	"../io/LEFStreams_.hpp"
+	<iostream>
+	<cstdlib>
+
+1280758110 /home/student/opengl/IARRC_Sim/src/io/LEFStreams_.hpp
+	<iostream>
+	<fstream>
+
+1307025784 source:/home/student/opengl/IARRC_Sim/src/graphics/Graphics2D.cpp
+	"Graphics2D.hpp"
+	"../app/Application.hpp"
+	"../vectors/Vector2D.hpp"
+	"Rotator2D.hpp"
+	<cmath>
+
+1287382388 source:/home/student/opengl/IARRC_Sim/src/graphics/Rotator2D.cpp
+	"Rotator2D.hpp"
+	"../stdafx.h"
+	<cmath>
+
+1287856896 source:/home/student/opengl/IARRC_Sim/src/graphics/Texture.cpp
+	"Texture.hpp"
+	"BitmapImage.hpp"
+	<cmath>
+	<cstdlib>
+	<iostream>
+
+1307026110 source:/home/student/opengl/IARRC_Sim/src/io/FileDirectory.cpp
+	"FileDirectory.hpp"
+	"../stdafx.h"
+	<sys/types.h>
+	<dirent.h>
+	<errno.h>
+	<windows.h>
+	<cstring>
+	<iostream>
+	<cstdio>
+
+1284239630 source:/home/student/opengl/IARRC_Sim/src/io/HTTPField.cpp
+	"HTTPField.hpp"
+
+1284756794 source:/home/student/opengl/IARRC_Sim/src/io/HTTPFieldSet.cpp
+	"HTTPFieldSet.hpp"
+
+1307026136 source:/home/student/opengl/IARRC_Sim/src/io/HTTPParser.cpp
+	"HTTPParser.hpp"
+	<cstring>
+	<sstream>
+	<cstdlib>
+	<cstdio>
+
+1306220668 source:/home/student/opengl/IARRC_Sim/src/io/HTTPRequest.cpp
+	"HTTPRequest.hpp"
+
+1306819312 source:/home/student/opengl/IARRC_Sim/src/io/HTTPResponse.cpp
+	"HTTPResponse.hpp"
+	"HTTPParser.hpp"
+	<string>
+	<list>
+	<iostream>
+	<sstream>
+	<fstream>
+	<cstdlib>
+	<cstdio>
+
+1269236290 source:/home/student/opengl/IARRC_Sim/src/io/LEInputStream_.cpp
+	"LEFStreams_.hpp"
+
+1269236350 source:/home/student/opengl/IARRC_Sim/src/io/LEOutputStream_.cpp
+	"LEFStreams_.hpp"
+
+1306240220 source:/home/student/opengl/IARRC_Sim/src/io/Parameter.cpp
+	"Parameter.hpp"
+	<cstring>
+
+1306239634 source:/home/student/opengl/IARRC_Sim/src/io/ParameterCollection.cpp
+	"ParameterCollection.hpp"
+	<cstring>
+	<iostream>
+
+1307270807 source:/home/student/opengl/IARRC_Sim/src/io/ServerSocket.cpp
+	"ServerSocket.hpp"
+	<cstdio>
+
+1307035448 source:/home/student/opengl/IARRC_Sim/src/io/Socket.cpp
+	"Socket.hpp"
+	<iostream>
+	<cstdlib>
+	<ws2tcpip.h>
+	<winsock.h>
+	<cstdio>
+
+1286529132 source:/home/student/opengl/IARRC_Sim/src/io/console.cpp
+	"console.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<iomanip>
+	<fcntl.h>
+	<io.h>
+	<ios>
+	<iostream>
+	<stdio.h>
+	<fstream>
+
+1273693292 /home/student/opengl/IARRC_Sim/src/io/console.hpp
+
+1307269805 source:/home/student/opengl/IARRC_Sim/src/main.cpp
+	"stdafx.h"
+	<windows.h>
+	"io/HTTPRequest.hpp"
+	"io/HTTPResponse.hpp"
+	<iostream>
+	"app/Application.hpp"
+	"ui/Utilities.hpp"
+	"threads/Thread.hpp"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	"io/console.hpp"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"docserver/DocServer.hpp"
+	"app/Application.hpp"
+
+1305139602 /home/student/opengl/IARRC_Sim/src/ui/Utilities.hpp
+
+1282059638 source:/home/student/opengl/IARRC_Sim/src/modelio/ComplexObjectLoader.cpp
+	"ComplexObjectLoader.hpp"
+
+1282146886 source:/home/student/opengl/IARRC_Sim/src/modelio/OBJComplexObjectLoader.cpp
+	"OBJComplexObjectLoader.hpp"
+
+1282146878 /home/student/opengl/IARRC_Sim/src/modelio/OBJComplexObjectLoader.hpp
+	"ComplexObjectLoader.hpp"
+
+1307296136 source:/home/student/opengl/IARRC_Sim/src/modelio/RRSMComplexObjectLoader.cpp
+	"../stdafx.h"
+	"RRSMComplexObjectLoader.hpp"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstring>
+	<cmath>
+	<cstdlib>
+	"../app/Application.hpp"
+	"../physicalobjects/Quad.hpp"
+	"../physicalobjects/UseTextureCommand.hpp"
+	"../physicalobjects/TranslateObjectWrapper.hpp"
+	"../physicalobjects/PolygonCommand.hpp"
+
+1306467692 /home/student/opengl/IARRC_Sim/src/physicalobjects/Quad.hpp
+	"../vectors/Vector3D.hpp"
+	"GCommand.hpp"
+
+1282690202 /home/student/opengl/IARRC_Sim/src/physicalobjects/UseTextureCommand.hpp
+	"../graphics/Texture.hpp"
+	"GCommand.hpp"
+
+1306468346 /home/student/opengl/IARRC_Sim/src/physicalobjects/PolygonCommand.hpp
+	"../stdafx.h"
+	"../vectors/Vector3D.hpp"
+	"GCommand.hpp"
+	<list>
+
+1306859124 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/Backdrop.cpp
+	"Backdrop.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	<sstream>
+
+1306469430 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/ComplexObject.cpp
+	"ComplexObject.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<sstream>
+	"../shapes/ZeroPlane.hpp"
+
+1306466702 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/GCommand.cpp
+	"GCommand.hpp"
+
+1306091900 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/InteractiveObject.cpp
+	"InteractiveObject.hpp"
+
+1306470340 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/LineSegment.cpp
+	"LineSegment.hpp"
+	<sstream>
+
+1306468782 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/PhysicalObject.cpp
+	"PhysicalObject.hpp"
+	"../editor/RepositionMouseMotionListener.hpp"
+	<cmath>
+
+1306473460 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/PolygonCommand.cpp
+	"PolygonCommand.hpp"
+	"../app/Application.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1307234008 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/Pylon.cpp
+	"Pylon.hpp"
+	"../shapes/Cone.hpp"
+	"../app/Application.hpp"
+	<cstdlib>
+	<cmath>
+	<iostream>
+
+1306473488 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/Quad.cpp
+	"Quad.hpp"
+	"../stdafx.h"
+	"../vectors/Vector2D.hpp"
+	"../app/Application.hpp"
+	<windows.h>
+	<gl/glut.h>
+	<gl/glu.h>
+
+1306258700 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/Ramp.cpp
+	"Ramp.hpp"
+	"../io/Socket.hpp"
+	"../stdafx.h"
+	<cmath>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../shapes/VerticalIsoscelesTriangle.hpp"
+	"../shapes/SlantedRectangle.hpp"
+	"../app/Application.hpp"
+
+1287346080 /home/student/opengl/IARRC_Sim/src/shapes/VerticalIsoscelesTriangle.hpp
+	"VerticalRectangle.hpp"
+
+1287376024 /home/student/opengl/IARRC_Sim/src/shapes/VerticalRectangle.hpp
+	"Shape.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1287379948 /home/student/opengl/IARRC_Sim/src/shapes/SlantedRectangle.hpp
+	"../stdafx.h"
+	"Shape.hpp"
+	"../vectors/Vector3D.hpp"
+	"../vectors/Ray3D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1307028938 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/RoboticCar.cpp
+	"../stdafx.h"
+	"RoboticCar.hpp"
+	"../robotcontrollers/PylonAvoider.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<fstream>
+	<cmath>
+	<algorithm>
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	"../shapes/VerticalRectangle.hpp"
+	"../app/Application.hpp"
+	"../app/EnvironmentRemovePhysicalObjectJob.hpp"
+
+1282597922 /home/student/opengl/IARRC_Sim/src/robotcontrollers/PylonAvoider.hpp
+	"RobotController.hpp"
+
+1306593448 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/RoboticHelicopter.cpp
+	"../stdafx.h"
+	"RoboticHelicopter.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1286514216 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/Rotatable.cpp
+	"Rotatable.hpp"
+	"../editor/RotationMouseMotionListener.hpp"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+
+1306944026 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/StopSign.cpp
+	"../stdafx.h"
+	"StopSign.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/glut.h>
+	<gl/glu.h>
+	<cmath>
+	<iostream>
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+
+1287883066 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/TrafficLight.cpp
+	"TrafficLight.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	<windows.h>
+	<gl/glut.h>
+	<gl/glu.h>
+	<cmath>
+
+1306470194 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/TranslateObjectWrapper.cpp
+	"TranslateObjectWrapper.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../vectors/Rotator3D.hpp"
+	<cstring>
+
+1306258674 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/Tunnel.cpp
+	"Tunnel.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+	"../app/Application.hpp"
+	"../shapes/VerticalRectangle.hpp"
+	"../shapes/HorizontalRectangle.hpp"
+
+1287384618 /home/student/opengl/IARRC_Sim/src/shapes/HorizontalRectangle.hpp
+	"../stdafx.h"
+	"Shape.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1286587524 source:/home/student/opengl/IARRC_Sim/src/physicalobjects/UseTextureCommand.cpp
+	"UseTextureCommand.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1287340012 source:/home/student/opengl/IARRC_Sim/src/robotcontrollers/PathFinder.cpp
+	"PathFinder.hpp"
+	"../stdafx.h"
+	"../graphics/BitmapImage.hpp"
+	"../vectors/Vector2DInt.hpp"
+	<cmath>
+	<list>
+
+1286592276 /home/student/opengl/IARRC_Sim/src/robotcontrollers/PathFinder.hpp
+	"../vectors/Vector2D.hpp"
+	<list>
+	<vector>
+
+1287343962 source:/home/student/opengl/IARRC_Sim/src/robotcontrollers/PylonAvoider.cpp
+	"PylonAvoider.hpp"
+	"PathFinder.hpp"
+
+1281931044 source:/home/student/opengl/IARRC_Sim/src/robotcontrollers/RobotController.cpp
+	"RobotController.hpp"
+
+1284995708 source:/home/student/opengl/IARRC_Sim/src/robotcontrollers/TCPIPRobotController.cpp
+	"TCPIPRobotController.hpp"
+	"../threads/Thread.hpp"
+
+1287798770 source:/home/student/opengl/IARRC_Sim/src/sensors/Lidar.cpp
+	"Lidar.hpp"
+	"../io/HTTPParser.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	"../vectors/Rotator3D.hpp"
+	<iostream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+
+1306081744 source:/home/student/opengl/IARRC_Sim/src/sensors/Sensor.cpp
+	"Sensor.hpp"
+	<sstream>
+	"../io/HTTPParser.hpp"
+
+1287713954 source:/home/student/opengl/IARRC_Sim/src/sensors/UltrasonicSensor.cpp
+	"UltrasonicSensor.hpp"
+	"../io/HTTPParser.hpp"
+	"../app/Application.hpp"
+	"../vectors/Ray3D.hpp"
+	<iostream>
+
+1307086970 source:/home/student/opengl/IARRC_Sim/src/sensors/VideoDevice.cpp
+	"VideoDevice.hpp"
+	"../io/ServerSocket.hpp"
+	"../threads/Thread.hpp"
+	"../io/HTTPRequest.hpp"
+	"../io/HTTPResponse.hpp"
+	"../graphics/BitmapImage.hpp"
+	"../app/Application.hpp"
+	"../stdafx.h"
+	<cstdlib>
+	<gl/gl.h>
+	<gl/glu.h>
+	<string>
+	<sstream>
+
+1305004540 source:/home/student/opengl/IARRC_Sim/src/shapes/Cone.cpp
+	"Cone.hpp"
+	"../stdafx.h"
+	<iostream>
+	<cmath>
+
+1286588214 source:/home/student/opengl/IARRC_Sim/src/shapes/ConeTester.cpp
+	"ConeTester.hpp"
+	<iostream>
+	<cmath>
+
+1285836696 /home/student/opengl/IARRC_Sim/src/shapes/ConeTester.hpp
+	"Cone.hpp"
+
+1287385870 source:/home/student/opengl/IARRC_Sim/src/shapes/HorizontalRectangle.cpp
+	"HorizontalRectangle.hpp"
+	<cmath>
+
+1304636130 source:/home/student/opengl/IARRC_Sim/src/shapes/Shape.cpp
+	"Shape.hpp"
+
+1304622494 source:/home/student/opengl/IARRC_Sim/src/shapes/ShapeCollection.cpp
+	"../stdafx.h"
+	"ShapeCollection.hpp"
+	<cmath>
+
+1287384396 source:/home/student/opengl/IARRC_Sim/src/shapes/SlantedRectangle.cpp
+	"SlantedRectangle.hpp"
+	<cmath>
+
+1287376034 source:/home/student/opengl/IARRC_Sim/src/shapes/VerticalIsoscelesTriangle.cpp
+	"VerticalIsoscelesTriangle.hpp"
+	<iostream>
+	<cmath>
+
+1305004798 source:/home/student/opengl/IARRC_Sim/src/shapes/VerticalRectangle.cpp
+	"VerticalRectangle.hpp"
+	"../stdafx.h"
+	<iostream>
+	<cmath>
+
+1305004738 source:/home/student/opengl/IARRC_Sim/src/shapes/ZeroPlane.cpp
+	"ZeroPlane.hpp"
+	<iostream>
+	<cmath>
+
+1286869296 source:/home/student/opengl/IARRC_Sim/src/shapes/ZeroPlaneTester.cpp
+	"ZeroPlaneTester.hpp"
+	<iostream>
+	<cmath>
+
+1285835792 /home/student/opengl/IARRC_Sim/src/shapes/ZeroPlaneTester.hpp
+	"ZeroPlane.hpp"
+
+1288308412 source:/home/student/opengl/IARRC_Sim/src/splash/Introduction.cpp
+	"Introduction.hpp"
+	"SplashWindow.hpp"
+	"../threads/Thread.hpp"
+	<iostream>
+
+1307236853 /home/student/opengl/IARRC_Sim/src/splash/SplashWindow.hpp
+	"../stdafx.h"
+	<windows.h>
+
+1307237313 source:/home/student/opengl/IARRC_Sim/src/splash/SplashWindow.cpp
+	"SplashWindow.hpp"
+	<ctime>
+	<iostream>
+
+1285305212 source:/home/student/opengl/IARRC_Sim/src/threads/Job.cpp
+	"Job.hpp"
+
+1285304614 source:/home/student/opengl/IARRC_Sim/src/threads/JobCollection.cpp
+	"JobCollection.hpp"
+
+1287216978 source:/home/student/opengl/IARRC_Sim/src/threads/Thread.cpp
+	"Thread.hpp"
+	<iostream>
+	<ctime>
+	<unistd.h>
+
+1307237353 source:/home/student/opengl/IARRC_Sim/src/ui/SensorEditorUI.cpp
+	"SensorEditorUI.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	"../graphics/Graphics2D.hpp"
+	"../sensors/UltrasonicSensor.hpp"
+	"../sensors/Lidar.hpp"
+	"../vectors/Vector2D.hpp"
+	"../editor/SensorRotationMouseListener.hpp"
+	"../editor/PerspectiveMouseMotionListener.hpp"
+	"Utilities.hpp"
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1307087176 source:/home/student/opengl/IARRC_Sim/src/ui/SimulationUI.cpp
+	"SimulationUI.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+	"Utilities.hpp"
+	"../app/Application.hpp"
+	"../physicalobjects/RoboticCar.hpp"
+	"../app/Environment.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../vectors/Vector2DInt.hpp"
+
+1307086910 source:/home/student/opengl/IARRC_Sim/src/ui/TrackEditorUI.cpp
+	"TrackEditorUI.hpp"
+	"Utilities.hpp"
+	"../physicalobjects/Pylon.hpp"
+	"../physicalobjects/StopSign.hpp"
+	"../physicalobjects/TrafficLight.hpp"
+	"../physicalobjects/Tunnel.hpp"
+	"../physicalobjects/Ramp.hpp"
+	"../editor/MouseMotionListener.hpp"
+	"../robotcontrollers/PylonAvoider.hpp"
+	"../app/Application.hpp"
+	"../vectors/Vector2DInt.hpp"
+	"../graphics/Graphics2D.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+	<list>
+
+1307086996 source:/home/student/opengl/IARRC_Sim/src/ui/UserInterface.cpp
+	"UserInterface.hpp"
+	<iostream>
+
+1307237402 source:/home/student/opengl/IARRC_Sim/src/ui/Utilities.cpp
+	"Utilities.hpp"
+	"../stdafx.h"
+	"../docserver/DocServer.hpp"
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<windows.h>
+	<cstdio>
+
+1288189876 source:/home/student/opengl/IARRC_Sim/src/vectors/PerspectiveViewTransformer.cpp
+	"PerspectiveViewTransformer.hpp"
+	<cmath>
+
+1287380246 source:/home/student/opengl/IARRC_Sim/src/vectors/Ray3D.cpp
+	"Ray3D.hpp"
+	"Rotator3D.hpp"
+	"../stdafx.h"
+
+1285740338 source:/home/student/opengl/IARRC_Sim/src/vectors/Rotator3D.cpp
+	"Rotator3D.hpp"
+	<cmath>
+
+1285741554 source:/home/student/opengl/IARRC_Sim/src/vectors/Rotator3DTester.cpp
+	"Rotator3DTester.hpp"
+	"../stdafx.h"
+	<iostream>
+	<string>
+	<cmath>
+
+1285739946 /home/student/opengl/IARRC_Sim/src/vectors/Rotator3DTester.hpp
+	"Rotator3D.hpp"
+
+1283475864 source:/home/student/opengl/IARRC_Sim/src/vectors/Vector2D.cpp
+	"Vector2D.hpp"
+	<cmath>
+
+1287728448 source:/home/student/opengl/IARRC_Sim/src/vectors/Vector2DInt.cpp
+	"Vector2DInt.hpp"
+
+1306466898 source:/home/student/opengl/IARRC_Sim/src/vectors/Vector3D.cpp
+	"Vector3D.hpp"
+	"../stdafx.h"
+	<cmath>
+	<iostream>
+	<sstream>
+	"Rotator3D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1288042028 source:/home/student/opengl/IARRC_Sim/src/vectors/ViewTransformer.cpp
+	"ViewTransformer.hpp"
+	<iostream>
+
+1307237897 source:/home/student/opengl/IARRC_Sim/src/vectors/Matrix.cpp
+	"Matrix.hpp"
+	<cstdlib>
+	<iostream>
+
+1309972002 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\texturecontext.cpp
+	"TextureContext.hpp"
+
+1309960874 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\graphics\texturecontext.hpp
+	"../stdafx.h"
+
+1310519337 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\sensors.hpp
+	<list>
+	<string>
+	"Sensor.hpp"
+	"VideoDevice.hpp"
+	"../threads/Mutex.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+
+1310152315 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\threads\mutex.hpp
+	"Thread.hpp"
+
+1310173230 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\threads\mutex.cpp
+	"Mutex.hpp"
+	<iostream>
+
+1310519329 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\sensors\sensors.cpp
+	"Sensors.hpp"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1311378947 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\verticalwall.cpp
+	"VerticalWall.hpp"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	<cmath>
+	<sstream>
+	"../editor/EndPointDragger.hpp"
+
+1311360956 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\physicalobjects\verticalwall.hpp
+	"../shapes/VerticalRectangle.hpp"
+	"PhysicalObject.hpp"
+	"Rotatable.hpp"
+
+1311361448 source:c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\endpointdragger.cpp
+	"EndPointDragger.hpp"
+
+1311361483 c:\files\startprogramming\funding\robotics competition\iarrc simulator project\iarrc_sim\editor\endpointdragger.hpp
+	"MouseMotionListener.hpp"
+	"../physicalobjects/VerticalWall.hpp"
+

@@ -1,0 +1,1 @@
+package gui;import javax.swing.*;public class MapDisplayFrameMenuBar extends JMenuBar{ private MapDisplayFrame frame; private JMenu view;   public MapDisplayFrameMenuBar(MapDisplayFrame frame)  {     this.frame=frame;     view=new JMenu("View");	 	 add(view);  }}

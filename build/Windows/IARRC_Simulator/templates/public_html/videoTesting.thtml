@@ -1,0 +1,65 @@
+<!--#set robots nofollow,noindex -->
+
+<!--#set body_class video_orientation_controls -->
+<!--#set title Video Testing -->
+<!--#set body-onload initApplet() -->
+
+<!--#include includes/heading.thtml -->
+
+<script language="javascript" type="text/javascript">
+
+/**
+ Returns the sensor name we are currently working with.
+*/
+function getSensorName()
+{
+  return "video1";
+}
+
+function getHostName()
+{
+  return "<!--#host -->";
+}
+
+function getPortNumber()
+{
+  return <!--#echo docserver-port -->;
+}
+
+function getVideoApplet(sensorName)
+{
+  var e=document.getElementById("videoViewer_"+sensorName);
+  return e;
+}
+
+function initApplet()
+{
+ try
+ {
+  var e=getVideoApplet("video1");
+
+  e.setHost(getHostName());
+  e.setPort(getPortNumber());
+ // e.setSensorName(getSensorName());
+ }
+ catch (e)
+ {
+   setTimeout("initApplet()",2000);
+ }
+}
+
+function setVideoAppletSize(sensorName,width,height)
+{
+ var e = getVideoApplet(sensorName);
+  e.height=height;
+  e.width=width;
+}
+
+</script>
+
+<applet id="videoViewer_video1" archive="applets/videoSensorApplet.jar"
+ code="VideoSensorApplet"
+ width="400" height="400" style="border: 1px solid black">
+</applet>
+
+<!--#include includes/footer.thtml -->

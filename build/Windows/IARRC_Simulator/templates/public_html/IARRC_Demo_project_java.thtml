@@ -1,0 +1,53 @@
+<!--#set robots index,follow -->
+
+<!--#set description Introduces various code example projects and how to use them -->
+<!--#set body-onload  -->
+
+<!--#set title IARRC Demo Project -->
+<!--#include includes/heading.thtml -->
+
+<ul>
+ <li><a href="#opencv">Installing OpenCV</a></li>
+ <li><a href="#stdafx">Solving stdafx.h problems</a></li>
+</ul>
+<br/>
+<hr/>
+<br/>
+<a name="opencv"></a>
+<h2>OpenCV</h2>
+<p>
+The demo project depends on OpenCV so it will need to be installed, if it isn't already on the computer.
+There are plenty of tutorials online to explain 
+how to install it on your type of computer for your type of development software.
+Try searching <a target="_empty"
+href="http://www.google.ca/search?hl=en&q=opencv+c%2B%2B+install">here</a>
+</p>
+
+
+
+<a name="stdafx"></a>
+<h2>Solving stdafx.h problems</h2>
+<p>
+The include file stdafx.h may cause some trouble for you while compiling/building the project.
+If it causes trouble for you, please follow the appropriate 
+ instructions below based on the c++ development tool you are using.
+</p>
+<h3>stdafx.h for Visual c++ 2008 Express Edition</h3>
+<ol>
+ <li>Click Project -&gt; IARRC_Demo properties...</li>
+ <li>In the Property Pages window, click to expand "Configuration Properties"</li>
+ <li>Expand "C/C++"</li>
+ <li>Click General</li>
+ <li>The value for "Additional Include Directories" 
+should include some opencv directories.  
+Add the IARRC_demo project root directory to that list.
+For example, <br/>
+;C:\Users\Josh\Documents\Visual Studio 2008\Projects\IARRC_Demo\IARRC_Demo
+</li>
+</ol>
+<a target="_empty" 
+ href="https://connect.microsoft.com/VisualStudio/feedback/details/552449/">
+More information on the stdafx.h problem</a>
+
+
+<!--#include includes/footer.thtml -->

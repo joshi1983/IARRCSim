@@ -1,0 +1,6 @@
+# latitude longitude and rotation of the Thunderbird Stadium
+geo 49.25448 -123.245275 -27.71
+
+boundrect 4500 7600 
+
+load Thunderbird_Stadium/Thunderbird_stadium.rrsm 0 0 0
