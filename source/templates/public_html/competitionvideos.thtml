@@ -1,0 +1,108 @@
+<!--#set description Lists some useful IARRC-related online videos -->
+
+<!--#set robots index,follow -->
+<!--#set title Robot Racing Competition Videos -->
+<!--#set body-onload  -->
+<!--#set body_class competitionvideos -->
+<!--#include includes/heading.thtml -->
+
+<p>Videos can be helpful in getting a better 
+understanding of what to expect in the upcoming competition and 
+a source of useful video test data.
+</p>
+
+Here are some videos related to past competitions.
+<ul>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=V4DeSo7RXdI">
+Wild Weasil Takes the Lead at Waterloo 2009 Robot Race 
+</a>
+</li>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=lQClE2quXtg">
+Team Invincible Wins Autonomous Racing Challenge 2008</a>
+</li>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=Ue_x1qzMmjw">
+University of Waterloo Autonomous Racing 2010 </a>
+</li>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=u4dewBI5l6o">
+McMaster's robot racing team</a>
+</li>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=ThZX-SzZ9bs">
+Autonomous Robot Speedway Competition 2009</a> 
+A separate competition but still involving autonomous control with pylons.
+</li>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=zSlzDRCHV8E">
+P1010008
+</a> - circuit race in St. Denis Centre
+</li>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=YqHp1wMguc0">
+Blizzard crash 
+</a> - drag race competition
+</li>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=6yy-pJhAzKI">
+racing robots.mov 
+</a> - UBC testing out autonomous driving on robot
+</li>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=e9FX38f6EJk">Unmanned MAGIC Robot Demo</a>
+ - Multi Autonomous Ground-robotic International Challenge(MAGIC)
+</li>
+<li>
+<a target="_empty" href="http://www.youtube.com/watch?v=pQOSKbxvN70">University of Pennsylvania MAGIC2010 Proposal Video</a>
+ - Multi Autonomous Ground-robotic International Challenge(MAGIC)
+</li>
+
+</ul>
+
+
+
+<br />
+
+<h3>Using Videos as Test Data</h3>
+
+<p>
+Downloading videos on most websites, is as easy as waiting for the download option to pop up but for youtube, 
+you may need some tricks.
+Some tools are available from a <a target="_empty"
+href="http://www.google.ca/search?q=youtube+video+downloader">
+google search</a>.  Some let you save directly to mpg or avi 
+format which are supported by OpenCV libraries.  Others save to flv format which will need to be 
+converted using a format conversion program.
+</p>
+<p>
+In Google Chrome, the following steps should let you download the flv file.
+<ol>
+<li> Right click on page </li>
+<li> Inspect element </li>
+<li>Click resources tab </li>
+<li> (enable resource tracking on that page if necessary)</li> 
+<li>Sort resources by size </li>
+<li> Click on the largest resource </li>
+<li> Copy resource url and open the url in a new tab </li>
+<li> Download the full resource.</li>
+</ol>
+</p>
+<p>
+In Google Chrome, method 2:
+<ol>
+<li>Add &html5=True to the youtube url.</li>
+<li>Inspect the video element to search for the url that way.</li>
+</ol>
+</p>
+<p>
+Video manipulation may be needed to get the video as you want.
+For Windows, a great free product for this is called 
+<a target="_empty" href="http://www.virtualdub.org/">VirtualDub</a>.
+<a target="_empty" href="http://www.virtualdub.org/">VirtualDub</a> also let's you capture video 
+using your video devices.
+</p>
+
+
+<!--#include includes/footer.thtml -->

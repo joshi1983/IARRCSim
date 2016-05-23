@@ -1,0 +1,5 @@
+loadtexture textures/stairs.bmp transparent-colour(180,180,180)
+quad -70 200 -273 -70 0 -273 -70 0 273 -70 200 273
+loadcolour 0.2 0.2 0.2
+quad -70 100 0 70 100 0 70 0 -250 -70 0 -250
+quad -70 100 0 -70 0 250 70 0 250 70 100 0

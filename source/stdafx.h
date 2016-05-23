@@ -24,7 +24,7 @@ typedef int DWORD;
 #include <GLUT/glut.h>
 #else // using mingw on Windows
 
-#include <GL/openglut.h>
+#include <GL/freeglut.h>
 #endif // end if apple else windows
 
 #endif // end if ubuntu or not

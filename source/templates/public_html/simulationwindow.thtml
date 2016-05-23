@@ -1,0 +1,28 @@
+<!--#set robots index,follow -->
+<!--#set description Explains the simulator window -->
+
+<!--#set title Simulation Window -->
+<!--#set body-onload  -->
+<!--#set body_class simulationwindow -->
+
+<!--#include includes/heading.thtml -->
+
+<h2>Simulation Window</h2>
+
+<p>
+The user interface for the simulator is broken into 3 modes 
+of the simulation window and this web browser interface.
+</p>
+<p>The modes of the simulation window are briefly described below:</p>
+<ol>
+ <li>Simulation mode is for running your simulation and seeing it from the perspective of your car's video camera.</li>
+ <li>Track editing mode is for editing a track.  This lets you add, remove, modify all 
+the main obstacles of the competition including pylons, stop signs, traffic lights, 
+ramps, and even autonomously controlled competing cars.</li>
+ <li>sensor editing mode is for editing your car's sensor layout.  
+You must use 1 video device but are free to any number of ultrasonic, and lidar sensors.</li>
+</ol>
+
+<!--#include includes/simulationuimode.thtml -->
+
+<!--#include includes/footer.thtml -->

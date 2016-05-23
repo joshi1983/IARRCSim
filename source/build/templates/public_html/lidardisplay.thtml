@@ -1,0 +1,88 @@
+<!--#set robots index,follow -->
+<!--#set description Displays LIDAR data for a particular LIDAR sensor from the main car in the simulator -->
+
+<!--#array-add js-includes js/status_display.js -->
+<!--#array-add js-includes js/lidar.js -->
+<!--#array-add js-includes js/simfunctions.js -->
+<!--#array-add js-includes js/rotationvector.js -->
+<!--#array-add js-includes js/orientationcontrols.js -->
+
+<!--#set title LIDAR Data Display -->
+<!--#set body-onload initDisplay();initOrientationControlDisplay() -->
+
+<!--#set body_class lidardisplay -->
+<!--#include includes/heading.thtml -->
+
+<!--#include includes/docserverport-js.thtml -->
+<script language="javascript" type="text/javascript">
+
+// cached values so the display can work efficiently.
+var _angleRangeMax=false;
+var _maxDepth=false;
+
+/**
+Returns the number of degrees across a scan of a LIDAR sensor
+*/
+function getAngleRangeInDegrees()
+{
+  if (!_angleRangeMax)
+    _angleRangeMax=getSimulatorProperty("device-"+getSensorName()+"-range-scan");
+
+  return _angleRangeMax;
+}
+
+function getMaximumDepth()
+{
+  if (!_maxDepth)
+     _maxDepth=getSimulatorProperty("device-"+getSensorName()+"-range-max");
+  
+  return _maxDepth;
+}
+
+/**
+ Returns the sensor name we are currently working with.
+*/
+function getSensorName()
+{
+  return "<!--#echo get.name -->";
+}
+
+</script>
+<p>
+This page is for display of LIDAR data for <!--#echo get.name -->.
+</p>
+
+<table class="wide">
+<tr>
+<td><input type="checkbox" id="autorefreshdata" checked="checked"
+  onclick="setAutorefreshData(this.checked)" />auto-refresh LIDAR Data</td>
+<td>
+<label for="zoomDisplay">Zoom</label>:
+<div id="zoomDisplay">
+</div>
+</td>
+<td>
+<div id="status">
+</div>
+</td>
+</tr>
+</table>
+<table class="wide">
+<tr>
+<td>
+<div align="center" style="width:100%;background-color:#ddd" class="lidarSensorData">
+<canvas id="display" width="400" height="400"
+onmousedown="canvasMouseDown(event)" 
+onmouseup="canvasMouseUp(event)" 
+onmousemove="canvasMouseMove(event)"
+>
+</canvas>
+</div>
+</td></tr>
+</table>
+
+<h3>Lidar Sensor Orientation</h3>
+<!--#include includes/orientationcontrols.thtml -->
+
+
+<!--#include includes/footer.thtml -->

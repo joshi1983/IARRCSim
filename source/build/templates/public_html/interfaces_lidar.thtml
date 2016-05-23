@@ -1,0 +1,26 @@
+<!--#set robots index,follow -->
+<!--#set description Explains how to interact with LIDAR sensors -->
+<!--#set title Interacting with Lidar Devices -->
+<!--#set body_class lidar -->
+<!--#set body-onload  -->
+
+<!--#include includes/heading.thtml -->
+
+<!--#include includes/interfaces_menu_heading.thtml -->
+
+
+
+<a name="LIDAR"></a>
+<h3>LIDAR Sensors</h3>
+<p>
+LIDAR Data can be queried using addresses like:
+<a href="http://<!--#host -->:<!--#echo docserver-port -->/get?item=sensordata&name=lidar1">
+http://<!--#host -->:<!--#echo docserver-port -->/get?item=sensordata&name=lidar1</a>. 
+This link will work only if there exists a Lidar sensor named lidar1.
+</p>
+
+
+
+
+<!--#include includes/interfaces_menu_footer.thtml -->
+<!--#include includes/footer.thtml -->

@@ -1,0 +1,12 @@
+<!--#set robots index,follow -->
+<!--#set description Offers a way to send questions, comments, and other feedback to the IARRC Simulator developers -->
+<!--#set title Forums -->
+<!--#set body-onload  -->
+<!--#set body_class forums -->
+<!--#include includes/heading.thtml -->
+
+To report bugs, ask questions, or get other types of support, please go to our online forum at
+<a target="_empty" href="http://iarrc-sim.comoj.com/forums/">http://iarrc-sim.comoj.com/forums/</a>
+
+
+<!--#include includes/footer.thtml -->

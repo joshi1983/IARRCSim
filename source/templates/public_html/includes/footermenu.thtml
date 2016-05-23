@@ -1,0 +1,14 @@
+<table id="menu">
+<tr class="<!--#echo body_class -->">
+ <td><a class="simulationwindow" href="simulationwindow.thtml"
+title="Learn how to use the simulator through its window and 3 different ui modes.">Simulation Window</a></td>
+ <td><a class="api"
+  title="Learn about the programming API and how your control software can connect with the simulator"
+ href="interfaces.thtml">API &#38; Protocols</a></td>
+ <td><a class="devices" href="devices.thtml"
+title="Look at live sensor data being retrieved from the simulator."
+>Live Sensor Data</a></td>
+ <td><a class="feedback" href="forums.thtml"
+title="Let us know about any question, criticism, compliment, suggestion, or bug.">Support and Feedback</a></td>
+</tr>
+</table>

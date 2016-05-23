@@ -1,0 +1,56 @@
+<!--#set robots index,follow -->
+<!--#set description Explains how to use HTTP in various programming languages -->
+<!--#set title Interacting Using HTTP -->
+<!--#set body_class http_over_tcpip -->
+
+<!--#include includes/heading.thtml -->
+
+<!--#include includes/interfaces_menu_heading.thtml -->
+
+
+
+
+<a name="http_over_tcpip"></a>
+<h3>Using TCP/IP</h3>
+<p>
+Every device can be controlled and queried from using HTTP GET requests.  
+If your programming language doesn't have libraries or API for HTTP requests like Java's 
+<a target="_empty"
+href="http://download.oracle.com/javase/1.5.0/docs/api/java/net/URL.html">java.net.URL class</a>, 
+Python's 
+<a target="_empty" href="http://docs.python.org/library/urllib.html">urllib package</a>,... 
+the required requests can be issued using TCP/IP.  TCP/IP is supported in Windows by 
+<a target="_empty" 
+href="http://msdn.microsoft.com/en-us/library/ms740673%28VS.85%29.aspx">WinSock</a>, 
+in Ubuntu by standard libraries like <a target="_empty"
+ href="http://opengroup.org/onlinepubs/007908799/xns/syssocket.h.html">sys/socket.h</a>.
+<p>
+The URL can be converted into an HTTP request by breaking out 
+ parts of the URL and placing them in a template as in this example.
+</p>
+<p>
+URL: http://<!--#host -->:<!--#echo docserver-port -->/requestpath<br/>
+<br/>
+An HTTP Request can be sent over any TCP/IP socket:<br/>
+<div style="border:1px solid #000">
+GET /requestpath HTTP/1.1<br/>
+<br/>
+</div>
+</p>
+<p>
+The request path would be everything including any GET parameters you use.  
+The request path must start with a slash /.
+
+For example, a request path could be: "/set?item=property&value=5"
+</p>
+<p>
+It is critically important to leave a blank line after.  
+In HTTP, this blank line means the end to the request headers.
+</p>
+</div>
+</p>
+
+
+<!--#include includes/interfaces_menu_footer.thtml -->
+
+<!--#include includes/footer.thtml -->

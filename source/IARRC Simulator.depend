@@ -2814,3 +2814,1239 @@
 	"MouseMotionListener.hpp"
 	"../physicalobjects/VerticalWall.hpp"
 
+1310523846 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\app\application.cpp
+	"Application.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../threads/JobCollection.hpp"
+	"../threads/Thread.hpp"
+	"../ui/TrackEditorUI.hpp"
+	"../ui/SensorEditorUI.hpp"
+	"../io/FileDirectory.hpp"
+	"../graphics/Texture.hpp"
+	"../graphics/Graphics2D.hpp"
+	"../threads/Thread.hpp"
+	"../io/HTTPParser.hpp"
+	"../splash/Introduction.hpp"
+	"../physicalobjects/Backdrop.hpp"
+	<cstdlib>
+	<sstream>
+	<fstream>
+	<cmath>
+
+1310174060 c:\users\jgreig\desktop\learning\iarrcsimulator\source\app\application.hpp
+	"../stdafx.h"
+	"../io/Socket.hpp"
+	"../threads/Job.hpp"
+	"../sensors/Sensors.hpp"
+	"../vectors/Ray3D.hpp"
+	"../ui/UserInterface.hpp"
+	"../physicalobjects/RoboticCar.hpp"
+	"../physicalobjects/Backdrop.hpp"
+	"../ui/SimulationUI.hpp"
+	"Environment.hpp"
+	<string>
+	<vector>
+	<windows.h>
+
+1463854083 c:\users\jgreig\desktop\learning\iarrcsimulator\source\stdafx.h
+	"io/Socket.hpp"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	<GLUT/glut.h>
+	<GL/freeglut.h>
+
+1286342818 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\socket.hpp
+	"../stdafx.h"
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<netdb.h>
+	<sys/types.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<winsock2.h>
+	<iostream>
+
+1310490647 c:\users\jgreig\desktop\learning\iarrcsimulator\source\threads\job.hpp
+
+1310522937 c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\sensors.hpp
+	<list>
+	<string>
+	"Sensor.hpp"
+	"VideoDevice.hpp"
+	"../threads/Mutex.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+
+1310521622 c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\sensor.hpp
+	<string>
+	"../vectors/Vector3D.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+
+1307800329 c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\vector3d.hpp
+	<iostream>
+	<string>
+
+1310348629 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\physicalobject.hpp
+	"../vectors/Vector3D.hpp"
+	"../vectors/Ray3D.hpp"
+	"../editor/ActiveVector2D.hpp"
+	"../shapes/ShapeCollection.hpp"
+	"LineSegment.hpp"
+	<string>
+	<list>
+	<vector>
+
+1287383578 c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\ray3d.hpp
+	"Vector3D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1287383932 c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\rotator2d.hpp
+	"../vectors/Vector2D.hpp"
+	"../vectors/Vector3D.hpp"
+
+1311364188 c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\vector2d.hpp
+	<iostream>
+
+1281875880 c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\activevector2d.hpp
+	"MouseMotionListener.hpp"
+	"../vectors/Vector2D.hpp"
+
+1287540758 c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\mousemotionlistener.hpp
+
+1286131036 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\shapecollection.hpp
+	"Shape.hpp"
+	<list>
+
+1287387034 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\shape.hpp
+	"../vectors/Ray3D.hpp"
+
+1306473948 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\linesegment.hpp
+	"../vectors/Vector3D.hpp"
+	"../vectors/Rotator3D.hpp"
+	<string>
+
+1285744420 c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\rotator3d.hpp
+	"Vector3D.hpp"
+	"Matrix.hpp"
+
+1285719474 c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\matrix.hpp
+	"Vector3D.hpp"
+
+1310778902 c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\videodevice.hpp
+	"../io/Socket.hpp"
+	"../io/ServerSocket.hpp"
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<string>
+	"../ui/UserInterface.hpp"
+	"../graphics/BitmapImage.hpp"
+	"../threads/Job.hpp"
+	"Sensor.hpp"
+	"../threads/Mutex.hpp"
+
+1287220314 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\serversocket.hpp
+	"../stdafx.h"
+	<winsock2.h>
+	"Socket.hpp"
+
+1307090404 c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\userinterface.hpp
+	"../stdafx.h"
+
+1310223154 c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\bitmapimage.hpp
+	"../threads/Mutex.hpp"
+
+1310155915 c:\users\jgreig\desktop\learning\iarrcsimulator\source\threads\mutex.hpp
+	"Thread.hpp"
+
+1287208280 c:\users\jgreig\desktop\learning\iarrcsimulator\source\threads\thread.hpp
+	"../stdafx.h"
+	<unistd.h>
+	<sys/types.h>
+	<errno.h>
+	<stdlib.h>
+	<pthread.h>
+	<windows.h>
+
+1310518487 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\roboticcar.hpp
+	"InteractiveObject.hpp"
+	"Rotatable.hpp"
+	"ComplexObject.hpp"
+	"RoboticHelicopter.hpp"
+	"../robotcontrollers/RobotController.hpp"
+	"../shapes/ShapeCollection.hpp"
+	"../threads/Mutex.hpp"
+
+1306095500 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\interactiveobject.hpp
+	"PhysicalObject.hpp"
+	"../vectors/Vector3D.hpp"
+	"../app/Environment.hpp"
+
+1311384129 c:\users\jgreig\desktop\learning\iarrcsimulator\source\app\environment.hpp
+	"../editor/ActiveVector2D.hpp"
+	"../vectors/Vector2D.hpp"
+	<list>
+	<iostream>
+	<string>
+	"../physicalobjects/InteractiveObject.hpp"
+	"../threads/Mutex.hpp"
+
+1309916755 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\rotatable.hpp
+	"../stdafx.h"
+	<list>
+	"../editor/ActiveVector2D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1310348741 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\complexobject.hpp
+	"PhysicalObject.hpp"
+	"GCommand.hpp"
+	<list>
+	"TranslateObjectWrapper.hpp"
+
+1310348801 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\gcommand.hpp
+	"../vectors/Vector3D.hpp"
+	"LineSegment.hpp"
+	<vector>
+
+1310348494 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\translateobjectwrapper.hpp
+	"GCommand.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+	"../vectors/Vector3D.hpp"
+	<string>
+
+1310569905 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\robotichelicopter.hpp
+	"InteractiveObject.hpp"
+	"Rotatable.hpp"
+	"ComplexObject.hpp"
+	"../shapes/ShapeCollection.hpp"
+
+1286484486 c:\users\jgreig\desktop\learning\iarrcsimulator\source\robotcontrollers\robotcontroller.hpp
+	"../physicalobjects/RoboticCar.hpp"
+	"../app/Environment.hpp"
+
+1306862702 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\backdrop.hpp
+	"ComplexObject.hpp"
+	<string>
+
+1309877819 c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\simulationui.hpp
+	"UserInterface.hpp"
+	"../sensors/VideoDevice.hpp"
+
+1310349831 c:\users\jgreig\desktop\learning\iarrcsimulator\source\threads\jobcollection.hpp
+	<list>
+	"Job.hpp"
+	"Mutex.hpp"
+
+1307090522 c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\trackeditorui.hpp
+	"UserInterface.hpp"
+	"../editor/CircuitDesign.hpp"
+
+1310319680 c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\circuitdesign.hpp
+	<iostream>
+	<list>
+	"../app/Environment.hpp"
+	"ActiveVector2D.hpp"
+	"../physicalobjects/RoboticCar.hpp"
+
+1309917144 c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\sensoreditorui.hpp
+	<list>
+	"UserInterface.hpp"
+	"../sensors/Sensor.hpp"
+	"../sensors/UltrasonicSensor.hpp"
+	"../editor/SensorRepositionMouseListener.hpp"
+	"../vectors/PerspectiveViewTransformer.hpp"
+
+1287717384 c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\ultrasonicsensor.hpp
+	"Sensor.hpp"
+
+1287559864 c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\sensorrepositionmouselistener.hpp
+	"MouseMotionListener.hpp"
+	"../sensors/Sensor.hpp"
+
+1288193450 c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\perspectiveviewtransformer.hpp
+	"ViewTransformer.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1288042964 c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\viewtransformer.hpp
+	"Vector3D.hpp"
+
+1287588870 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\filedirectory.hpp
+	<string>
+	<list>
+
+1309975372 c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\texture.hpp
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<list>
+	"TextureContext.hpp"
+
+1309964474 c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\texturecontext.hpp
+	"../stdafx.h"
+
+1310520821 c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\graphics2d.hpp
+	"../stdafx.h"
+	"../vectors/Vector2DInt.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1287732018 c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\vector2dint.hpp
+	"../stdafx.h"
+	<windows.h>
+
+1306222664 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httpparser.hpp
+	"../stdafx.h"
+	"HTTPFieldSet.hpp"
+	"Socket.hpp"
+
+1284242988 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httpfieldset.hpp
+	<list>
+	<iostream>
+	"HTTPField.hpp"
+	"Socket.hpp"
+
+1284242886 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httpfield.hpp
+	<string>
+	<iostream>
+	"Socket.hpp"
+
+1288312054 c:\users\jgreig\desktop\learning\iarrcsimulator\source\splash\introduction.hpp
+
+1311384333 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\app\environment.cpp
+	"../stdafx.h"
+	"../robotcontrollers/TCPIPRobotController.hpp"
+	"Application.hpp"
+	"Environment.hpp"
+	"../physicalobjects/Pylon.hpp"
+	"../physicalobjects/TrafficLight.hpp"
+	"../physicalobjects/StopSign.hpp"
+	"../physicalobjects/Ramp.hpp"
+	"../physicalobjects/Tunnel.hpp"
+	"../physicalobjects/RoboticHelicopter.hpp"
+	"../physicalobjects/VerticalWall.hpp"
+	"../editor/CircuitDesign.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../sensors/Lidar.hpp"
+	"../sensors/UltrasonicSensor.hpp"
+	"../docserver/DocServer.hpp"
+	"../io/HTTPParser.hpp"
+	"../io/FileDirectory.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	"../shapes/ZeroPlane.hpp"
+	"../ui/SensorEditorUI.hpp"
+	<ctime>
+	<list>
+	<iostream>
+	<fstream>
+	<sstream>
+	<cmath>
+	<limits>
+
+1284998740 c:\users\jgreig\desktop\learning\iarrcsimulator\source\robotcontrollers\tcpiprobotcontroller.hpp
+	"RobotController.hpp"
+	"../io/ServerSocket.hpp"
+
+1310348494 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\pylon.hpp
+	"../stdafx.h"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"InteractiveObject.hpp"
+	"../shapes/Cone.hpp"
+	<iostream>
+
+1286427956 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\cone.hpp
+	"Shape.hpp"
+
+1310348494 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\trafficlight.hpp
+	"InteractiveObject.hpp"
+	"Rotatable.hpp"
+	<iostream>
+
+1310348494 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\stopsign.hpp
+	"PhysicalObject.hpp"
+	"Rotatable.hpp"
+
+1310348684 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\ramp.hpp
+	"../io/Socket.hpp"
+	"InteractiveObject.hpp"
+	"Pylon.hpp"
+	"Rotatable.hpp"
+	<list>
+
+1310348494 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\tunnel.hpp
+	"PhysicalObject.hpp"
+	"Rotatable.hpp"
+	"Pylon.hpp"
+	<list>
+
+1311364556 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\verticalwall.hpp
+	"../shapes/VerticalRectangle.hpp"
+	"PhysicalObject.hpp"
+	"Rotatable.hpp"
+
+1287379624 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\verticalrectangle.hpp
+	"Shape.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1309171253 c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\lidar.hpp
+	"Sensor.hpp"
+	<iostream>
+	<string>
+
+1286518402 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\docserver.hpp
+	"../stdafx.h"
+	"../io/ServerSocket.hpp"
+	"../threads/Thread.hpp"
+
+1282150414 c:\users\jgreig\desktop\learning\iarrcsimulator\source\modelio\rrsmcomplexobjectloader.hpp
+	"ComplexObjectLoader.hpp"
+
+1282150500 c:\users\jgreig\desktop\learning\iarrcsimulator\source\modelio\complexobjectloader.hpp
+	"../physicalobjects/ComplexObject.hpp"
+
+1285907662 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\zeroplane.hpp
+	"Shape.hpp"
+
+1310054505 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\app\environmentremovephysicalobjectjob.cpp
+	"EnvironmentRemovePhysicalObjectJob.hpp"
+
+1310054473 c:\users\jgreig\desktop\learning\iarrcsimulator\source\app\environmentremovephysicalobjectjob.hpp
+	"Environment.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+	"../threads/Job.hpp"
+
+1307029384 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\arrayvariablevalue.cpp
+	"ArrayVariableValue.hpp"
+	<string>
+	<iostream>
+
+1286060572 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\arrayvariablevalue.hpp
+	"VariableValue.hpp"
+	<vector>
+
+1286060572 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\variablevalue.hpp
+	<string>
+
+1286060112 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\constant.cpp
+	"Constant.hpp"
+	"SingleVariableValue.hpp"
+
+1286059896 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\constant.hpp
+	"NamedValue.hpp"
+
+1286059840 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\namedvalue.hpp
+	"VariableValue.hpp"
+	<string>
+
+1286060504 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\singlevariablevalue.hpp
+	<string>
+	"VariableValue.hpp"
+
+1311384363 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\docserver.cpp
+	"DocServer.hpp"
+	"THTMLProcessor.hpp"
+	"Constant.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../sensors/Lidar.hpp"
+	"../graphics/BitmapImage.hpp"
+	"../io/HTTPRequest.hpp"
+	"../io/HTTPResponse.hpp"
+	"../io/HTTPParser.hpp"
+	"../threads/Job.hpp"
+	"../app/Environment.hpp"
+	"../app/Application.hpp"
+	"../physicalobjects/Pylon.hpp"
+	"../physicalobjects/Ramp.hpp"
+	"../physicalobjects/TrafficLight.hpp"
+	"../physicalobjects/StopSign.hpp"
+	"../physicalobjects/VerticalWall.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	<iostream>
+	<vector>
+	<cstdio>
+	<sstream>
+
+1286006338 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\thtmlprocessor.hpp
+	<string>
+	<vector>
+	"VariableCollectionStack.hpp"
+
+1286064052 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\variablecollectionstack.hpp
+	"VariableCollection.hpp"
+	"VariableValue.hpp"
+	<vector>
+
+1286064130 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\variablecollection.hpp
+	"NamedValue.hpp"
+	<string>
+	<list>
+
+1306224224 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httprequest.hpp
+	"Socket.hpp"
+	"HTTPParser.hpp"
+	"ParameterCollection.hpp"
+	<list>
+	<iostream>
+	<string>
+
+1286063364 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\parametercollection.hpp
+	<list>
+	"Parameter.hpp"
+
+1306243616 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\parameter.hpp
+
+1284999914 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httpresponse.hpp
+	"HTTPFieldSet.hpp"
+	"Socket.hpp"
+	<string>
+
+1286060938 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\namedvalue.cpp
+	"NamedValue.hpp"
+
+1286060572 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\singlevariablevalue.cpp
+	"SingleVariableValue.hpp"
+
+1307029384 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\thtmlprocessor.cpp
+	"THTMLProcessor.hpp"
+	"SingleVariableValue.hpp"
+	"ArrayVariableValue.hpp"
+	"Variable.hpp"
+	"../io/HTTPParser.hpp"
+	<cstdlib>
+	<cstdio>
+	<sstream>
+
+1286061096 c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\variable.hpp
+	"NamedValue.hpp"
+
+1286061598 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\variable.cpp
+	"Variable.hpp"
+	"SingleVariableValue.hpp"
+	"ArrayVariableValue.hpp"
+	<iostream>
+
+1286061324 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\variablecollection.cpp
+	"VariableCollection.hpp"
+	<iostream>
+
+1308786521 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\variablecollectionstack.cpp
+	"VariableCollectionStack.hpp"
+	"SingleVariableValue.hpp"
+	"ArrayVariableValue.hpp"
+	"Variable.hpp"
+	"../app/Environment.hpp"
+	<iostream>
+
+1284822894 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\docserver\variablevalue.cpp
+	"VariableValue.hpp"
+
+1281902242 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\activevector2d.cpp
+	"ActiveVector2D.hpp"
+
+1310319661 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\circuitdesign.cpp
+	"CircuitDesign.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cstring>
+	<cmath>
+
+1311365048 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\endpointdragger.cpp
+	"EndPointDragger.hpp"
+
+1311365083 c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\endpointdragger.hpp
+	"MouseMotionListener.hpp"
+	"../physicalobjects/VerticalWall.hpp"
+
+1281894652 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\mousemotionlistener.cpp
+	"MouseMotionListener.hpp"
+
+1288200074 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\perspectivemousemotionlistener.cpp
+	"PerspectiveMouseMotionListener.hpp"
+
+1288198732 c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\perspectivemousemotionlistener.hpp
+	"MouseMotionListener.hpp"
+	"../vectors/PerspectiveViewTransformer.hpp"
+
+1288036328 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\repositionmousemotionlistener.cpp
+	"RepositionMouseMotionListener.hpp"
+
+1281933952 c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\repositionmousemotionlistener.hpp
+	"MouseMotionListener.hpp"
+	"../physicalobjects/PhysicalObject.hpp"
+
+1281867926 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\rotationmousemotionlistener.cpp
+	"RotationMouseMotionListener.hpp"
+
+1307029384 c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\rotationmousemotionlistener.hpp
+	"MouseMotionListener.hpp"
+	"../physicalobjects/Rotatable.hpp"
+
+1288036586 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\sensorrepositionmouselistener.cpp
+	"SensorRepositionMouseListener.hpp"
+	"../ui/SensorEditorUI.hpp"
+
+1287994378 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\sensorrotationmouselistener.cpp
+	"SensorRotationMouseListener.hpp"
+	"../io/HTTPParser.hpp"
+	"../ui/SensorEditorUI.hpp"
+
+1287991568 c:\users\jgreig\desktop\learning\iarrcsimulator\source\editor\sensorrotationmouselistener.hpp
+	"MouseMotionListener.hpp"
+	"../sensors/Sensor.hpp"
+
+1310228836 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\bitmapimage.cpp
+	"BitmapImage.hpp"
+	"../io/LEFStreams_.hpp"
+	<iostream>
+	<cstdlib>
+
+1280761710 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\lefstreams_.hpp
+	<iostream>
+	<fstream>
+
+1310520799 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\graphics2d.cpp
+	"Graphics2D.hpp"
+	"../app/Application.hpp"
+	"../vectors/Vector2D.hpp"
+	"Rotator2D.hpp"
+	<cmath>
+
+1287385988 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\rotator2d.cpp
+	"Rotator2D.hpp"
+	"../stdafx.h"
+	<cmath>
+
+1310171966 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\texture.cpp
+	"Texture.hpp"
+	"BitmapImage.hpp"
+	"../app/Application.hpp"
+	<cmath>
+	<cstdlib>
+	<iostream>
+	<vector>
+
+1309975602 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\graphics\texturecontext.cpp
+	"TextureContext.hpp"
+
+1286532732 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\console.cpp
+	"console.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<iomanip>
+	<fcntl.h>
+	<io.h>
+	<ios>
+	<iostream>
+	<stdio.h>
+	<fstream>
+
+1273696892 c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\console.hpp
+
+1311364787 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\filedirectory.cpp
+	"FileDirectory.hpp"
+	"../stdafx.h"
+	<sys/types.h>
+	<dirent.h>
+	<errno.h>
+	<windows.h>
+	<cstring>
+	<iostream>
+	<cstdio>
+
+1284243230 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httpfield.cpp
+	"HTTPField.hpp"
+
+1284760394 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httpfieldset.cpp
+	"HTTPFieldSet.hpp"
+
+1311207430 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httpparser.cpp
+	"HTTPParser.hpp"
+	<cstring>
+	<sstream>
+	<cstdlib>
+	<cstdio>
+
+1306224268 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httprequest.cpp
+	"HTTPRequest.hpp"
+
+1306822912 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\httpresponse.cpp
+	"HTTPResponse.hpp"
+	"HTTPParser.hpp"
+	<string>
+	<list>
+	<iostream>
+	<sstream>
+	<fstream>
+	<cstdlib>
+	<cstdio>
+
+1269239890 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\leinputstream_.cpp
+	"LEFStreams_.hpp"
+
+1269239950 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\leoutputstream_.cpp
+	"LEFStreams_.hpp"
+
+1306243820 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\parameter.cpp
+	"Parameter.hpp"
+	<cstring>
+
+1306243234 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\parametercollection.cpp
+	"ParameterCollection.hpp"
+	<cstring>
+	<iostream>
+
+1307274408 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\serversocket.cpp
+	"ServerSocket.hpp"
+	<cstdio>
+
+1307039048 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\io\socket.cpp
+	"Socket.hpp"
+	<iostream>
+	<cstdlib>
+	<ws2tcpip.h>
+	<winsock.h>
+	<cstdio>
+
+1311385841 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\logging\eventlog.cpp
+	"EventLog.hpp"
+	<sstream>
+
+1311385679 c:\users\jgreig\desktop\learning\iarrcsimulator\source\logging\eventlog.hpp
+	<list>
+	"LogMessage.hpp"
+
+1311384940 c:\users\jgreig\desktop\learning\iarrcsimulator\source\logging\logmessage.hpp
+	<string>
+
+1311385857 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\logging\logmessage.cpp
+	"LogMessage.hpp"
+	<sstream>
+
+1310223376 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\main.cpp
+	"stdafx.h"
+	<windows.h>
+	"io/HTTPRequest.hpp"
+	"io/HTTPResponse.hpp"
+	<iostream>
+	"app/Application.hpp"
+	"ui/Utilities.hpp"
+	"threads/Thread.hpp"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	"io/console.hpp"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"docserver/DocServer.hpp"
+	"app/Application.hpp"
+	"threads/Mutex.hpp"
+	"threads/Thread.hpp"
+
+1305143202 c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\utilities.hpp
+
+1282063238 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\modelio\complexobjectloader.cpp
+	"ComplexObjectLoader.hpp"
+
+1282150486 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\modelio\objcomplexobjectloader.cpp
+	"OBJComplexObjectLoader.hpp"
+
+1282150478 c:\users\jgreig\desktop\learning\iarrcsimulator\source\modelio\objcomplexobjectloader.hpp
+	"ComplexObjectLoader.hpp"
+
+1307832192 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\modelio\rrsmcomplexobjectloader.cpp
+	"../stdafx.h"
+	"RRSMComplexObjectLoader.hpp"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstring>
+	<cmath>
+	<cstdlib>
+	"../app/Application.hpp"
+	"../physicalobjects/Quad.hpp"
+	"../physicalobjects/UseTextureCommand.hpp"
+	"../physicalobjects/TranslateObjectWrapper.hpp"
+	"../physicalobjects/PolygonCommand.hpp"
+
+1310348857 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\quad.hpp
+	"../vectors/Vector3D.hpp"
+	"GCommand.hpp"
+
+1310348494 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\usetexturecommand.hpp
+	"../graphics/Texture.hpp"
+	"GCommand.hpp"
+
+1310348801 c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\polygoncommand.hpp
+	"../stdafx.h"
+	"../vectors/Vector3D.hpp"
+	"GCommand.hpp"
+	<list>
+
+1306862724 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\backdrop.cpp
+	"Backdrop.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	<sstream>
+
+1310348741 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\complexobject.cpp
+	"ComplexObject.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<sstream>
+	"../shapes/ZeroPlane.hpp"
+
+1306470302 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\gcommand.cpp
+	"GCommand.hpp"
+
+1306095500 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\interactiveobject.cpp
+	"InteractiveObject.hpp"
+
+1306473940 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\linesegment.cpp
+	"LineSegment.hpp"
+	<sstream>
+
+1308784641 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\physicalobject.cpp
+	"PhysicalObject.hpp"
+	"../app/Environment.hpp"
+	"../app/Application.hpp"
+	"../editor/RepositionMouseMotionListener.hpp"
+	<cmath>
+	<sstream>
+
+1310348815 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\polygoncommand.cpp
+	"PolygonCommand.hpp"
+	"../app/Application.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1310348886 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\pylon.cpp
+	"Pylon.hpp"
+	"../shapes/Cone.hpp"
+	"../app/Application.hpp"
+	<cstdlib>
+	<cmath>
+	<iostream>
+
+1310348857 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\quad.cpp
+	"Quad.hpp"
+	"../stdafx.h"
+	"../vectors/Vector2D.hpp"
+	"../app/Application.hpp"
+	<windows.h>
+	<gl/glut.h>
+	<gl/glu.h>
+
+1310348684 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\ramp.cpp
+	"Ramp.hpp"
+	"../io/Socket.hpp"
+	"../stdafx.h"
+	<cmath>
+	<GL/freeglut.h>
+	<GL/glu.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../shapes/VerticalIsoscelesTriangle.hpp"
+	"../shapes/SlantedRectangle.hpp"
+	"../app/Application.hpp"
+
+1287349680 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\verticalisoscelestriangle.hpp
+	"VerticalRectangle.hpp"
+
+1287383548 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\slantedrectangle.hpp
+	"../stdafx.h"
+	"Shape.hpp"
+	"../vectors/Vector3D.hpp"
+	"../vectors/Ray3D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1310707279 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\roboticcar.cpp
+	"../stdafx.h"
+	"RoboticCar.hpp"
+	"../robotcontrollers/PylonAvoider.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<fstream>
+	<cmath>
+	<algorithm>
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	"../shapes/VerticalRectangle.hpp"
+	"../app/Application.hpp"
+	"../app/EnvironmentRemovePhysicalObjectJob.hpp"
+
+1282601522 c:\users\jgreig\desktop\learning\iarrcsimulator\source\robotcontrollers\pylonavoider.hpp
+	"RobotController.hpp"
+
+1310572261 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\robotichelicopter.cpp
+	"../stdafx.h"
+	"RoboticHelicopter.hpp"
+	"../modelio/RRSMComplexObjectLoader.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../app/Application.hpp"
+	<windows.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1309916828 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\rotatable.cpp
+	"Rotatable.hpp"
+	"../editor/RotationMouseMotionListener.hpp"
+	<GL/freeglut.h>
+	<GL/glut.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+
+1310348915 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\stopsign.cpp
+	"../stdafx.h"
+	"StopSign.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/glut.h>
+	<gl/glu.h>
+	<cmath>
+	<iostream>
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+
+1310348933 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\trafficlight.cpp
+	"TrafficLight.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	<windows.h>
+	<gl/glut.h>
+	<gl/glu.h>
+	<cmath>
+
+1310348957 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\translateobjectwrapper.cpp
+	"TranslateObjectWrapper.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"../vectors/Rotator3D.hpp"
+	<cstring>
+
+1310348967 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\tunnel.cpp
+	"Tunnel.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+	"../app/Application.hpp"
+	"../shapes/VerticalRectangle.hpp"
+	"../shapes/HorizontalRectangle.hpp"
+
+1287388218 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\horizontalrectangle.hpp
+	"../stdafx.h"
+	"Shape.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1310348780 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\usetexturecommand.cpp
+	"UseTextureCommand.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1311382547 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\physicalobjects\verticalwall.cpp
+	"VerticalWall.hpp"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	<cmath>
+	<sstream>
+	"../editor/EndPointDragger.hpp"
+
+1287343612 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\robotcontrollers\pathfinder.cpp
+	"PathFinder.hpp"
+	"../stdafx.h"
+	"../graphics/BitmapImage.hpp"
+	"../vectors/Vector2DInt.hpp"
+	<cmath>
+	<list>
+
+1286595876 c:\users\jgreig\desktop\learning\iarrcsimulator\source\robotcontrollers\pathfinder.hpp
+	"../vectors/Vector2D.hpp"
+	<list>
+	<vector>
+
+1287347562 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\robotcontrollers\pylonavoider.cpp
+	"PylonAvoider.hpp"
+	"PathFinder.hpp"
+
+1281934644 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\robotcontrollers\robotcontroller.cpp
+	"RobotController.hpp"
+
+1284999308 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\robotcontrollers\tcpiprobotcontroller.cpp
+	"TCPIPRobotController.hpp"
+	"../threads/Thread.hpp"
+
+1309171422 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\lidar.cpp
+	"Lidar.hpp"
+	"../io/HTTPParser.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	"../vectors/Rotator3D.hpp"
+	<iostream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+
+1310522133 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\sensor.cpp
+	"Sensor.hpp"
+	<sstream>
+	"../io/HTTPParser.hpp"
+	"../app/Application.hpp"
+
+1310522929 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\sensors.cpp
+	"Sensors.hpp"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1287717554 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\ultrasonicsensor.cpp
+	"UltrasonicSensor.hpp"
+	"../io/HTTPParser.hpp"
+	"../app/Application.hpp"
+	"../vectors/Ray3D.hpp"
+	<iostream>
+
+1310779228 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\sensors\videodevice.cpp
+	"VideoDevice.hpp"
+	"../io/ServerSocket.hpp"
+	"../threads/Thread.hpp"
+	"../io/HTTPRequest.hpp"
+	"../io/HTTPResponse.hpp"
+	"../graphics/BitmapImage.hpp"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	"../graphics/Graphics2D.hpp"
+	"../stdafx.h"
+	<cstdlib>
+	<gl/gl.h>
+	<gl/glu.h>
+	<string>
+	<sstream>
+	<cstdio>
+
+1307680240 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\cone.cpp
+	"Cone.hpp"
+	"../stdafx.h"
+	<iostream>
+	<cmath>
+
+1286591814 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\conetester.cpp
+	"ConeTester.hpp"
+	<iostream>
+	<cmath>
+
+1285840296 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\conetester.hpp
+	"Cone.hpp"
+
+1287389470 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\horizontalrectangle.cpp
+	"HorizontalRectangle.hpp"
+	<cmath>
+
+1307713287 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\shape.cpp
+	"Shape.hpp"
+
+1307714133 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\shapecollection.cpp
+	"../stdafx.h"
+	"ShapeCollection.hpp"
+	<cmath>
+
+1287387996 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\slantedrectangle.cpp
+	"SlantedRectangle.hpp"
+	<cmath>
+
+1287379634 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\verticalisoscelestriangle.cpp
+	"VerticalIsoscelesTriangle.hpp"
+	<iostream>
+	<cmath>
+
+1307713364 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\verticalrectangle.cpp
+	"VerticalRectangle.hpp"
+	"../stdafx.h"
+	<iostream>
+	<cmath>
+
+1307713331 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\zeroplane.cpp
+	"ZeroPlane.hpp"
+	<iostream>
+	<cmath>
+
+1286872896 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\zeroplanetester.cpp
+	"ZeroPlaneTester.hpp"
+	<iostream>
+	<cmath>
+
+1285839392 c:\users\jgreig\desktop\learning\iarrcsimulator\source\shapes\zeroplanetester.hpp
+	"ZeroPlane.hpp"
+
+1288312012 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\splash\introduction.cpp
+	"Introduction.hpp"
+	"SplashWindow.hpp"
+	"../threads/Thread.hpp"
+	<iostream>
+
+1307240454 c:\users\jgreig\desktop\learning\iarrcsimulator\source\splash\splashwindow.hpp
+	"../stdafx.h"
+	<windows.h>
+
+1307240914 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\splash\splashwindow.cpp
+	"SplashWindow.hpp"
+	<ctime>
+	<iostream>
+
+1285308812 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\threads\job.cpp
+	"Job.hpp"
+
+1310490647 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\threads\jobcollection.cpp
+	"JobCollection.hpp"
+
+1310176830 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\threads\mutex.cpp
+	"Mutex.hpp"
+	<iostream>
+
+1287220578 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\threads\thread.cpp
+	"Thread.hpp"
+	<iostream>
+	<ctime>
+	<unistd.h>
+
+1310177349 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\sensoreditorui.cpp
+	"SensorEditorUI.hpp"
+	"../stdafx.h"
+	"../app/Application.hpp"
+	"../graphics/Texture.hpp"
+	"../graphics/Graphics2D.hpp"
+	"../sensors/UltrasonicSensor.hpp"
+	"../sensors/Lidar.hpp"
+	"../vectors/Vector2D.hpp"
+	"../editor/SensorRotationMouseListener.hpp"
+	"../editor/PerspectiveMouseMotionListener.hpp"
+	"Utilities.hpp"
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<cstdio>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1309917379 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\simulationui.cpp
+	"SimulationUI.hpp"
+	"../stdafx.h"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+	"Utilities.hpp"
+	"../app/Application.hpp"
+	"../physicalobjects/RoboticCar.hpp"
+	"../app/Environment.hpp"
+	"../sensors/VideoDevice.hpp"
+	"../vectors/Vector2DInt.hpp"
+	<cstring>
+	<cstdio>
+
+1309917424 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\trackeditorui.cpp
+	"TrackEditorUI.hpp"
+	"Utilities.hpp"
+	"../physicalobjects/Pylon.hpp"
+	"../physicalobjects/StopSign.hpp"
+	"../physicalobjects/TrafficLight.hpp"
+	"../physicalobjects/Tunnel.hpp"
+	"../physicalobjects/Ramp.hpp"
+	"../editor/MouseMotionListener.hpp"
+	"../robotcontrollers/PylonAvoider.hpp"
+	"../app/Application.hpp"
+	"../vectors/Vector2DInt.hpp"
+	"../graphics/Graphics2D.hpp"
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<cmath>
+	<list>
+	<cstdio>
+
+1307090596 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\userinterface.cpp
+	"UserInterface.hpp"
+	<iostream>
+
+1307241002 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\ui\utilities.cpp
+	"Utilities.hpp"
+	"../stdafx.h"
+	"../docserver/DocServer.hpp"
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<windows.h>
+	<cstdio>
+
+1307241498 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\matrix.cpp
+	"Matrix.hpp"
+	<cstdlib>
+	<iostream>
+
+1288193476 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\perspectiveviewtransformer.cpp
+	"PerspectiveViewTransformer.hpp"
+	<cmath>
+
+1287383846 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\ray3d.cpp
+	"Ray3D.hpp"
+	"Rotator3D.hpp"
+	"../stdafx.h"
+
+1285743938 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\rotator3d.cpp
+	"Rotator3D.hpp"
+	<cmath>
+
+1285745154 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\rotator3dtester.cpp
+	"Rotator3DTester.hpp"
+	"../stdafx.h"
+	<iostream>
+	<string>
+	<cmath>
+
+1285743546 c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\rotator3dtester.hpp
+	"Rotator3D.hpp"
+
+1311364360 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\vector2d.cpp
+	"Vector2D.hpp"
+	<cmath>
+
+1287732048 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\vector2dint.cpp
+	"Vector2DInt.hpp"
+
+1307800489 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\vector3d.cpp
+	"Vector3D.hpp"
+	"../stdafx.h"
+	<cmath>
+	<iostream>
+	<sstream>
+	"Rotator3D.hpp"
+	"../graphics/Rotator2D.hpp"
+
+1288045628 source:c:\users\jgreig\desktop\learning\iarrcsimulator\source\vectors\viewtransformer.cpp
+	"ViewTransformer.hpp"
+	<iostream>
+

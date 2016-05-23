@@ -1,0 +1,9 @@
+loadcolour 0.7 0.7 0.7
+quad 0 0 -140 0 100 -140 350 250.5 -140 350 0 -140
+quad 0 0 140 0 100 140 350 250 140 350 0 140
+loadtexture textures/doorway.bmp
+quad 350 250 -140 350 0 -140 350 0 140 350 250.5 140
+loadtexture textures/blueseat_above_doorway.bmp
+quad 350 250.5 -140 888 481.84 -140 888 481.84 140 350 250.5 140 -normal
+loadtexture textures/curiousity.bmp
+quad 351 200 140 351 100 140 351 100 -140 351 200 -140

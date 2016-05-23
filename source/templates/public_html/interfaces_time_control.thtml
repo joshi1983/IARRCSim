@@ -1,0 +1,59 @@
+<!--#set robots index,follow -->
+<!--#set title Time Control -->
+<!--#set description Explains how to take control of time in the simulated environment -->
+
+<!--#set body_class time_control -->
+<!--#set body-onload  -->
+
+<!--#include includes/heading.thtml -->
+
+<!--#include includes/interfaces_menu_heading.thtml -->
+<p>
+A robot control solution may depend on a very specific feedback cycle rate 
+so the simulator offers ways for you to control the 
+time elapsed between each feedback loop.
+</p>
+<p>
+Let's look at an example.  
+Gathering data from sensors, processing, and outputting commands may happen 30 times a second.
+To test the code with the simulator, the simulator can be:
+<ol>
+ <li>paused to stop it from progressing in realtime</li>
+ <li>sent a message to progress 1/30 of a second when the code is ready for the next frame of inputs</li>
+</ol>
+</p>
+
+<p>
+The address formats to tell the simulator to pause, use realtime, 
+or progress through time a specified amount can be understood by looking at the examples below.
+</p>
+<ul>
+ <li><a href="javascript:sendRequestNonBlocking('/set?item=iniproperty&name=application-paused&value=1')">
+http://<!--#host -->:<!--#echo docserver-port -->/set?item=iniproperty&name=application-paused&value=1</a>
+ - pause simulation
+</li>
+ <li><a href="javascript:sendRequestNonBlocking('/set?item=iniproperty&name=application-paused&value=0')">
+http://<!--#host -->:<!--#echo docserver-port -->/set?item=iniproperty&name=application-paused&value=0</a>
+ - unpause simulation(run in realtime)
+</li>
+ <li><a href="javascript:sendRequestNonBlocking('/set?item=time&action=pass_time&value=30')">
+http://<!--#host -->:<!--#echo docserver-port -->/set?item=time&action=pass_time&value=30</a>
+ - Progress 30ms(30/1000 second or roughly 1/30 of a second) through time.
+</li>
+ <li><a href="javascript:sendRequestNonBlocking('/set?item=time&action=reset&value=0')">
+http://<!--#host -->:<!--#echo docserver-port -->/set?item=time&action=reset&value=0</a>
+ - resets the clock to 0ms.  This does not alter the state of any objects in the simulator.
+</li>
+ <li><a href="/get?item=time&format=xml">
+http://<!--#host -->:<!--#echo docserver-port -->/get?item=time&format=xml</a>
+ - gets the current time in an XML format
+</li>
+ <li><a href="/get?item=time&format=txt">
+http://<!--#host -->:<!--#echo docserver-port -->/get?item=time&format=txt</a>
+ - gets the current time in a text format
+</li>
+
+</ul>
+
+<!--#include includes/interfaces_menu_footer.thtml -->
+<!--#include includes/footer.thtml -->

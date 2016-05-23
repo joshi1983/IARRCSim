@@ -1,0 +1,99 @@
+<!--#set robots index,follow -->
+<!--#set title Copyright Policy -->
+<!--#set description Explains the copyright policy for this website and the simulator -->
+<!--#set body-onload  -->
+
+<!--#include includes/heading.thtml -->
+
+<p>
+Most files in the downloadable archive are copyright &#169; 2010 - 2011 Josh Greig.  
+All rights are reserved with only a few exceptions. 
+</p>
+
+<h3>Copying from C/C++ Examples</h3>
+<ul>
+<li>
+  You are welcome to copy from the c++ code examples.
+</li>
+<li>
+  You are welcome to derive code for the IARRC competition from the IARRC Demo project.
+</li>
+</ul>
+
+<h3>Using Data From Simulator</h3>
+<ul>
+<li>
+You are welcome to use graphics and data retrieved from the 
+simulation program in design reports, presentations, 
+and to test your robot control software.
+</li>
+<li>3D models and editing work of textures are not to be copied into other software products.
+</li>
+</ul>
+
+<h3>Third Party Content</h3>
+<ul>
+<li>The ground texture is derived from Google Maps.</li>
+<li>Some of the robot textures are derived from website images of a Traxxas E-max.</li>
+</ul>
+
+<h3>History of the IARRC Simulator</h3>
+<p>
+Although the idea of a simulator to help with control software development came from Josh in January 2010, 
+this simulator wouldn't have been made without the work of 
+<a target="_empty" 
+href="http://www.chargelabs.ca/index.php?option=com_content&view=article&id=436&Itemid=137"
+>Matthew Hurajt</a>
+ and 
+<a target="_empty"
+href="http://web2.uwindsor.ca/engineering/cvss/?topic=mainContent&id=22">Siddhant Ahuja</a>.
+</p>
+<p>The idea of making a simulator to test control code was demonstrated in a <a target="_empty"
+href="http://www.cslearn.netne.net/graphics/applet/robots/robotRacer/page.html">small Java applet</a> in late January 2010.
+The applet and the idea of simulating the conversation between control system, 
+video camera, and motor controls appealed to Sid.
+</p>
+<p>
+In weeks following, Matthew Hurajt took a similar simulator idea on as 
+ a university Capstone project under 
+ the official supervision of <a target="_empty"
+href="http://www.uwindsor.ca/engineering/electrical/dr-jonathan-wu">Dr. Jonathan Wu</a>.
+Matt's simulator is helping with the 
+<a target="_empty"
+href="http://www.igvc.org/">Intelligent Ground Vehicle Competition(IGVC)</a>.
+</p>
+<p>
+Some technical ideas for the IARRC Simulator were taken from 
+ discussions with Sid and Matt.
+<ul>
+<li>The use of OpenGL was originally Sid's idea.  
+</li>  
+<li>The use of a graphical track editor was Matt's idea and implemented in his project.</li>
+</ul>
+</p>
+<p>
+Lots of other ideas were derived from experience working with engineering students 
+in the 2010 IARRC competition.  These students include: 
+<ul>
+<li><a target="_empty" href="http://www.essco.ca/people/daniel-kubacki-vp-external">Daniel Kubacki</a></li>
+<li><a target="_empty"
+href="http://ca.linkedin.com/pub/mohammad-al-anee/21/67a/3a8">
+Mohammad Al Anee</a></li>
+<li><a target="_empty"
+href="http://electron.cs.uwindsor.ca/~mehrabia/index.html">Amir Mehrabi</a></li>
+<li>Mukunthan Jeyakumar</li>
+<li><a target="_empty"
+href="http://fayazkadir.com/blog/">Fayaz Kadir</a></li>
+<li><a target="_empty"
+href="http://www.facebook.com/alexbussiere">Alex Bussiere</a></li>
+<li>Jeremy Fields</li>
+</ul>
+</p>
+
+<!--#include includes/footer.thtml -->
+
+
+
+
+
+

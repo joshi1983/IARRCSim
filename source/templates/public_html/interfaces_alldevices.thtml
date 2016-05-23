@@ -1,0 +1,32 @@
+<!--#set robots index,follow -->
+<!--#set description Explains how to retrieve information on all sensors in the robotic car -->
+
+<!--#set title Interacting with All Devices -->
+<!--#set body_class interacting_all_devices -->
+<!--#include includes/heading.thtml -->
+
+<!--#include includes/interfaces_menu_heading.thtml -->
+
+
+<a name="devices"></a>
+<h3>All Devices</h3>
+<ul>
+ <li><a href="http://<!--#host -->:<!--#echo docserver-port -->/get?item=sensors">http://<!--#host -->:<!--#echo docserver-port -->/get?item=sensors</a> 
+  - for retrieving information on all sensors.
+ </li>
+ <li>The sensors can be listed in different formats specified by setting format parameter to 
+<a href="http://<!--#host -->:<!--#echo docserver-port -->/get?item=sensors&amp;format=xml">xml</a>,
+<a href="http://<!--#host -->:<!--#echo docserver-port -->/get?item=sensors&amp;format=JSON">JSON</a>,
+<a href="http://<!--#host -->:<!--#echo docserver-port -->/get?item=sensors&amp;format=txt">txt</a>, or 
+<a href="http://<!--#host -->:<!--#echo docserver-port -->/get?item=sensors&amp;format=ini">ini</a>.</li>
+ <li>Any sensor property can be retrieved by sending an HTTP request to get item=property&amp;name=[the ini formatted name].
+For example, you can get the width property of a device called video1 by making a request to
+<a href="http://<!--#host -->:<!--#echo docserver-port -->/get?item=property&amp;name=device-video1-width">
+http://<!--#host -->:<!--#echo docserver-port -->/get?item=property&amp;name=device-video1-width</a>.
+Note that the previous link will only work if a sensor named video1 exists.
+</li>
+</ul>
+
+
+<!--#include includes/interfaces_menu_footer.thtml -->
+<!--#include includes/footer.thtml -->

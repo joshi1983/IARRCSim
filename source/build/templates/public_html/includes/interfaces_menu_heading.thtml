@@ -1,0 +1,24 @@
+<table class="interfaces_content">
+<tbody>
+<tr>
+<td id="interfaces_menu">
+<h3>API Topics</h3>
+<ul class="interfaces_menu"  id="<!--#echo body_class -->">
+<li><a class="interfaces_li" href="interfaces.thtml">Overview of Protocols</a></li>
+<li><a class="interfaces_demo_projects_li" href="interfaces_demo_projects.thtml">IARRC Client Demo</a></li>
+<li><a class="http_over_tcpip_li" href="interfaces_http.thtml">Using TCP/IP</a></li>
+<li><a class="interacting_all_devices_li" href="interfaces_alldevices.thtml">All devices</a></li>
+<li><a class="carmotors_li" href="interfaces_motorcontrols.thtml">Motors</a></li>
+<li><a class="interacting_with_drones_li" href="interfaces_drone_controls.thtml">Drone Controls</a></li>
+<li><a class="lidar_li" href="interfaces_lidar.thtml">LIDAR sensors</a></li>
+<li><a class="interfaces_ultrasonic_devices_li" href="interfaces_ultrasonic_devices.thtml">Ultrasonic Sensors</a></li>
+<li><a class="interfaces_video_devices_li" href="interfaces_video_devices.thtml">Video devices</a></li>
+<li><a class="trackmanipulation_li" href="interfaces_trackmanipulation.thtml">Track Manipulation</a></li>
+<li><a class="time_control_li" href="interfaces_time_control.thtml">
+<img src="images/time-control.png" width="16" height="16" alt="time control" />
+Time Control</a></li>
+<li><a class="gps_li" href="interfaces_gps.thtml">GPS</a></li>
+<li><a class="retrieving_li" href="interfaces_retrieving.thtml">Retrieving Other Data</a></li>
+</ul>
+</td>
+<td>

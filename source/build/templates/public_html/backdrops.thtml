@@ -1,0 +1,37 @@
+<!--#set description Lets a user select a 3D backdrop to be placed around the track -->
+
+<!--#set robots index,follow -->
+<!--#set title Backdrops -->
+<!--#set body_class backdrops -->
+<!--#array-add js-includes js/backdrops.js -->
+
+<!--#set body-onload initBackdropOptions() -->
+<!--#include includes/heading.thtml -->
+<h2>Backdrops</h2>
+<p>
+Backdrops or background scenery are a fun way to put the competition in a more realistic context.  
+</p>
+<p>
+Backdrops can be selected by clicking your choice from be the options below.
+</p>
+
+<div align="center">
+
+<table id="backdrops">
+ <tbody>
+  <tr>
+   <td>
+    <a class="inactive" href="#"><img src="images/thunderbird.png" /></a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <a class="inactive" href="#"><img src="images/st_denis.png" /></a>
+   </td>
+  </tr>
+ </tbody>
+</table>
+
+</div>
+
+<!--#include includes/footer.thtml -->

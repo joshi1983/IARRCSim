@@ -1,0 +1,49 @@
+
+<table id="menu">
+<tr class="<!--#echo body_class -->">
+ <td><a class="simulationwindow" href="simulationwindow.thtml"
+title="Learn how to use the simulator through its window and 3 different ui modes.">Simulation Window</a></td>
+<td><a class="api"
+  title="Learn about the programming API and how your control software can connect with the simulator"
+ href="interfaces.thtml">API &#38; Protocols</a></td> 
+<td><a class="devices" href="devices.thtml"
+title="Look at live sensor data being retrieved from the simulator.">Live Sensor Data</a></td>
+ 
+ <td><a class="extra_options" title="Extra options"
+id="extrasAnchor" href="javascript:showPopup('popup_extras','extrasAnchor')">Extras</a></td>
+ <td><a class="feedback"
+title="Let us know about any question, criticism, compliment, suggestion, or bug."
+href="forums.thtml">Support and Feedback</a></td>
+</tr>
+</table>
+
+<div id="popup_extras" class="popup">
+<table>
+<tbody>
+<tr>
+ <td><a href="drone.thtml"
+title="Learn about flying autonomous vehicles and how to simulate them.">
+Drones</a>
+</td>
+</tr>
+<tr>
+ <td><a href="backdrops.thtml"
+ title="Select a 3D backdrop.  You can pick St. Denis Centre Field, Thunderbird, or none.">Backdrops</a></td>
+</tr>
+<tr>
+ <td><a href="config.thtml" 
+title="Learn how to configure the simulator">Configuration</a></td>
+</tr>
+<tr>
+ <td><a href="competitionvideos.thtml"
+   title="View online videos related to the IARRC competition"
+>Videos</a></td>
+</tr>
+<tr>
+ <td><a href="search.thtml" 
+   title="Search this local website"
+>Search</a></td>
+</tr>
+</tbody>
+</table>
+</div>

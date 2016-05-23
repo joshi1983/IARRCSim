@@ -1,0 +1,97 @@
+<!--#set robots index,follow -->
+<!--#set title Manipulating the Track -->
+<!--#set description Explains how to load, clear, and manipulate the track from an external program -->
+
+<!--#set body_class trackmanipulation -->
+<!--#set body-onload  -->
+
+<!--#include includes/heading.thtml -->
+
+<!--#include includes/interfaces_menu_heading.thtml -->
+
+<a name="track_editing"></a>
+<h3>Track Manipulation</h3>
+<p>
+Tracks can be manipulated in the track editor manually but also manipulated using your own software.
+Through HTTP requests, you can clear the current track, add new obstacles, cars.
+</p>
+
+<h3>Clearing All Obstacles</h3>
+<p>
+Clearing the current track can be done using a GET request to 
+<a href="http://<!--#host -->:<!--#echo docserver-port -->/remove?item=track">
+http://<!--#host -->:<!--#echo docserver-port -->/remove?item=track</a>
+</p>
+<h3>Adding a Single Obstacle</h3>
+<p>
+Adding a pylon to a track can be done by sending a GET request to an address like 
+<ul>
+<li><a href="/add?item=trackobject&amp;type=pylon&amp;position-x=100&amp;position-z=-200">
+http://<!--#host -->:<!--#echo docserver-port -->/add?item=trackobject&amp;type=pylon&amp;position-x=100&amp;position-z=-200</a>.
+</li>
+<li>type must be one of pylon,stop,light, ramp, or maincar.</li>  
+<li>The properties will be set to defaults unless you specify them.</li>
+</ul>
+</p>
+<p>The maincar is a special case in which no new object is added to the track.  
+Instead, it helps you reset properties on the car to bring it back to a good starting state for the new track.
+</p>
+
+<h3>Adding Multiple Obstacles In One Command</h3>
+<p>
+You can send multiple obstacle creation commands to the simulator in one message.
+This can be done by sending an add request where item=track and value describes the objects you want to add.
+</p>
+<p>
+The value should be a semicolon-separated list of obstacle descriptions.  Each obstacle description 
+starts with the type: pylon, stop, light, ramp and is followed by comma separated property assignments.
+For example, the following value will add two pylons to the track:
+ pylon,position-x=10,position-z=50;pylon,position-x=200,position-z=300
+</p>
+<p>
+It is generally recommended that a POST method is used instead of GET since the value can easily exceed the 255 length limit for URL's.
+When using POST, also stick to URL-encoding for the parameters that get specified in the body of the POST request.  
+Commas, semicolons, hyphens, letters, numeric digits... can all stay as they are.
+</p>
+<p>
+The following link will add a single pylon to the simulator's track.
+<a href="http://<!--#host -->:<!--#echo docserver-port -->/add?item=track&amp;value=pylon">
+http://<!--#host -->:<!--#echo docserver-port -->/add?item=track&amp;value=pylon</a>
+</p>
+
+<h3>Loading Track Files</h3>
+<p>
+If you want to load a track from a file using your own program, send your load request to 
+http://<!--#host -->:<!--#echo docserver-port -->/load?item=track&amp;value=filename.  
+The filename has to be one found in the tracks directory.
+</p><p>
+To get a listing of valid filenames, send a request to
+<a href="/get?item=tracks&amp;format=txt">
+http://<!--#host -->:<!--#echo docserver-port -->/get?item=tracks&amp;format=txt</a>.  
+The format can be <a href="/get?item=tracks&amp;format=xml">xml</a>, 
+<a href="/get?item=tracks&amp;format=JSON">JSON</a>, or 
+<a href="/get?item=tracks&amp;format=txt">txt</a>.
+</p>
+
+<h3>Retrieving Track Information</h3>
+<p>
+Information on all obstacles in the simulator can be retrieved in xml, and plain text formats.   
+This can be useful since sensor data can be processed to estimate obstacle 
+ locations but the actual data would be important to automatically test estimations against the desired results.
+</p>
+<ul>
+ <li><a href="get?item=track&amp;format=xml">http://<!--#host -->:<!--#echo docserver-port -->/get?item=track&amp;format=xml</a>
+ - xml format</li>
+ <li><a href="get?item=track&amp;format=txt">http://<!--#host -->:<!--#echo docserver-port -->/get?item=track&amp;format=txt</a>
+ - txt format</li>
+</ul>
+
+<h3>Examples of Track Generators</h3>
+<ul>
+<li>The track manipulation features described above were applied by 
+ <a href="maze_generator.thtml">the Maze Track Generator</a>.</li>
+</ul>
+
+
+<!--#include includes/interfaces_menu_footer.thtml -->
+<!--#include includes/footer.thtml -->

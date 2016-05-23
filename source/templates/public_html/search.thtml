@@ -1,0 +1,22 @@
+<!--#set title Search -->
+<!--#set description Searches this website based on user specified keywords -->
+
+<!--#set robots nofollow,noindex -->
+
+<!--#set body-onload updateSearchCache() -->
+
+<!--#array-add js-includes js/search.js -->
+<!--#set body_class search -->
+
+<!--#include includes/heading.thtml -->
+
+<label for="searchString">Keywords:</label> <input id="searchstring" type="text" value="" onkeyup="delayedShowSearchResults()"
+onload="delayedShowSearchResults()" onclick="delayedShowSearchResults()" />
+
+<div id="searchresults">
+</div>
+
+
+
+
+<!--#include includes/footer.thtml -->

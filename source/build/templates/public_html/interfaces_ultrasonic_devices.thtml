@@ -1,0 +1,28 @@
+<!--#set robots index,follow -->
+
+<!--#set description Explains how to retrieve ultrasonic sensor data from the simulator -->
+
+<!--#set title Interacting with Ultrasonic Devices -->
+<!--#set body_class interfaces_ultrasonic_devices -->
+<!--#set body-onload  -->
+
+<!--#include includes/heading.thtml -->
+
+<!--#include includes/interfaces_menu_heading.thtml -->
+
+
+
+<a name="ultrasonics"></a>
+<h3>Ultrasonic Sensors</h3>
+<p>
+The current depth reading for any ultrasonic sensor can be queried using the depth property.
+For example, if you have an ultrasonic sensor named ultra1, you can see its current depth 
+measurement by sending a request to
+<a href="http://<!--#host -->:<!--#echo docserver-port -->/get?item=property&amp;name=device-ultra1-depth">
+http://<!--#host -->:<!--#echo docserver-port -->/get?item=property&amp;name=device-ultra1-depth</a>.  
+Note that if ultra1 does not currently exist, that will not display a depth value.
+</p>
+
+<!--#include includes/interfaces_menu_footer.thtml -->
+
+<!--#include includes/footer.thtml -->
