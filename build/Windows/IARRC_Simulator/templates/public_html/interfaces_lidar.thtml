@@ -19,7 +19,7 @@ http://<!--#host -->:<!--#echo docserver-port -->/get?item=sensordata&name=lidar
 This link will work only if there exists a Lidar sensor named lidar1.
 </p>
 
-
+<img src="images/lidar_SICK.png" />
 
 
 <!--#include includes/interfaces_menu_footer.thtml -->

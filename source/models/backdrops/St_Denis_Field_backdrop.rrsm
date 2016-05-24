@@ -1,7 +1,0 @@
-# latitude longitude  rotate-angle
-geo 42.298154 -83.063144 -7
-
-boundrect 4500 7500 
-
-load St_Denis_Centre/st_denis_field.rrsm 0 0 -1200
-

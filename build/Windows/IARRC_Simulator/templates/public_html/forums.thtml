@@ -5,8 +5,8 @@
 <!--#set body_class forums -->
 <!--#include includes/heading.thtml -->
 
-To report bugs, ask questions, or get other types of support, please go to our online forum at
-<a target="_empty" href="http://iarrc-sim.comoj.com/forums/">http://iarrc-sim.comoj.com/forums/</a>
+To report bugs, ask questions, or get other types of support, please go to
+<a target="_empty" href="https://github.com/joshi1983/IARRCSim">https://github.com/joshi1983/IARRCSim</a>
 
 
 <!--#include includes/footer.thtml -->

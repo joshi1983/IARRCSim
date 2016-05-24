@@ -1,9 +1,0 @@
-<script language="javascript" type="text/javascript">
-
-/** Gets the port the human-readable documents are served on */
- function getDocumentServerPort()
- {
-    return <!--#echo docserver-port -->;
- }
-
-</script>

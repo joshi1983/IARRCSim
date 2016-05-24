@@ -42,14 +42,12 @@ and to test your robot control software.
 Although the idea of a simulator to help with control software development came from Josh in January 2010, 
 this simulator wouldn't have been made without the work of 
 <a target="_empty" 
-href="http://www.chargelabs.ca/index.php?option=com_content&view=article&id=436&Itemid=137"
->Matthew Hurajt</a>
+href="https://plus.google.com/118300364723732763109">Matthew Hurajt</a>
  and 
 <a target="_empty"
-href="http://web2.uwindsor.ca/engineering/cvss/?topic=mainContent&id=22">Siddhant Ahuja</a>.
+href="https://www.linkedin.com/in/siddhant-ahuja-14578b13">Siddhant Ahuja</a>.
 </p>
-<p>The idea of making a simulator to test control code was demonstrated in a <a target="_empty"
-href="http://www.cslearn.netne.net/graphics/applet/robots/robotRacer/page.html">small Java applet</a> in late January 2010.
+<p>The idea of making a simulator to test control code was demonstrated in a small Java applet in late January 2010.
 The applet and the idea of simulating the conversation between control system, 
 video camera, and motor controls appealed to Sid.
 </p>
@@ -75,18 +73,19 @@ Some technical ideas for the IARRC Simulator were taken from
 Lots of other ideas were derived from experience working with engineering students 
 in the 2010 IARRC competition.  These students include: 
 <ul>
-<li><a target="_empty" href="http://www.essco.ca/people/daniel-kubacki-vp-external">Daniel Kubacki</a></li>
+<li><a target="_empty" href="https://www.linkedin.com/in/daniel-kubacki-57b23b44">Daniel Kubacki</a></li>
 <li><a target="_empty"
 href="http://ca.linkedin.com/pub/mohammad-al-anee/21/67a/3a8">
 Mohammad Al Anee</a></li>
 <li><a target="_empty"
-href="http://electron.cs.uwindsor.ca/~mehrabia/index.html">Amir Mehrabi</a></li>
-<li>Mukunthan Jeyakumar</li>
+href="https://www.linkedin.com/in/amir-mehrabi-07397291">Amir Mehrabi</a></li>
+<li><a target="_empty" href="https://www.linkedin.com/in/mukunthan-jeyakumar-36525435">Mukunthan Jeyakumar</a></li>
 <li><a target="_empty"
-href="http://fayazkadir.com/blog/">Fayaz Kadir</a></li>
+href="https://www.linkedin.com/in/fayaz-kadir-93a9bb21">Fayaz Kadir</a></li>
 <li><a target="_empty"
-href="http://www.facebook.com/alexbussiere">Alex Bussiere</a></li>
-<li>Jeremy Fields</li>
+href="https://www.linkedin.com/in/alex-bussiere-14b74039">Alex Bussiere</a></li>
+<li><a target="_empty" 
+href="https://www.linkedin.com/in/jeremy-fields-7719a667">Jeremy Fields</a></li>
 </ul>
 </p>
 

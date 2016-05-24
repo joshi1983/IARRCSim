@@ -23,6 +23,8 @@ http://<!--#host -->:<!--#echo docserver-port -->/get?item=property&amp;name=dev
 Note that if ultra1 does not currently exist, that will not display a depth value.
 </p>
 
+<img src="images/ultrasonic_sensor.png" />
+
 <!--#include includes/interfaces_menu_footer.thtml -->
 
 <!--#include includes/footer.thtml -->

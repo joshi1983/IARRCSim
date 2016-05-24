@@ -1,5 +1,0 @@
-loadcolour 0.8 0.8 0.8
-quad 20 0 0 -20 0 0 -20 2500 0 20 2500 0
-quad 0 0 20 0 0 -20 0 2500 -20 0 2500 20
-loadtexture textures/lights.bmp transparent-colour(220,220,220)
-quad 0 2500 200 0 2730 200 0 2730 -200 0 2500 -200
