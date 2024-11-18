@@ -1,4 +1,6 @@
-
+To get this working on your computer, do the following:
+1. Download this repository as a zip file.
+1. Open build/Windows/IARRC_Sim.exe
 
 DEPENDENCIES:
 
