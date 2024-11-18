@@ -5,6 +5,8 @@ To get this working on your computer without recompiling, do the following:
 
 To build from source, open the source project with [Code::Blocks](https://www.codeblocks.org/downloads/).  source/IARRC Simulator.cbp is the project file.
 
+The application runs with a graphical user interface but it also runs an HTTP server that hosts API's you can connect with using any general purpose programming language.  A web browser will open as the simulator runs to show documentation about the simulator's API's.
+
 DEPENDENCIES:
 
 - freeglut
