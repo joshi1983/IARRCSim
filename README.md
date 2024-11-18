@@ -1,8 +1,9 @@
 To get this working on your computer without recompiling, do the following:
 1. Download this repository as a zip file.
-1. Open build/Windows/IARRC_Sim.exe
+2. Extract the file anywhere you want.
+1. Open build/Windows/IARRC_Simulator/IARRC_Sim.exe
 
-To build from source, open the source project with either CodeBlocks or Visual Studio.
+To build from source, open the source project with [Code::Blocks](https://www.codeblocks.org/downloads/).  source/IARRC Simulator.cbp is the project file.
 
 DEPENDENCIES:
 
